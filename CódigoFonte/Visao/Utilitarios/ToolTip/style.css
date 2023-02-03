@@ -1,0 +1,44 @@
+#text {margin:50px auto; width:500px}
+.hotspot {
+	color:#938f8f;
+	cursor:help;
+	font-size: x-small;
+}
+
+#tt
+{
+    position: absolute;
+    display: block;
+    z-index:9999999999999;
+}
+#tttop {display:block; height:5px; margin-left:5px;  overflow:hidden}
+#ttcont
+{
+    display: block;
+    padding: 5px 5px 5px 30px;
+    margin-left: 5px;
+    background: #7a7878;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 11px !important;
+    max-width: 235px;
+    text-align: center;
+    background-image: url('icone_tooltip.png');
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    min-height:30px;
+}
+#ttbot {display:block; height:5px; margin-left:5px;  overflow:hidden}
+
+.icones {
+	text-align: center;
+	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px !important;
+}
+
+.titulos {
+color:white;
+text-align:center;
+font-size:11px !important;
+}

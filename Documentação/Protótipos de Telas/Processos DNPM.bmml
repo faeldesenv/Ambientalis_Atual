@@ -1,0 +1,826 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="2775" measuredH="2840" mockupW="2715" mockupH="2830">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="60" y="10" w="1299" h="2830" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1"/>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Tree" x="110" y="325" w="354" h="466" measuredW="300" measuredH="432" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <selectedIndex>-1</selectedIndex>
+        <text>2012001/2012%0A_%20Autoriza%E7%E3o%20de%20Pesquisa%0A_%20%20%20Requerimento%0A_%20%20%20Alvar%E1%0A_%20RAL%0A_Concess%E3o%20de%20Lavra%0A_%20%20%20Requerimento%0A_%20%20%20Concess%E3o%0A2012002/2012%0A_%20Autoriza%E7%E3o%20de%20Pesquisa%0A_%20%20%20Requerimento%0A2012003/2010%0A_%20Autoriza%E7%E3o%20de%20Pesquisa%0A_%20%20%20Requerimento%0A_%20%20%20Alvar%E1%0A_Guia%20de%20Utiliza%E7%E3o%0A2012004/2000%0A_Extra%E7%E3o%0A2012005/2012%0A_Licenciamento</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::ComboBox" x="214" y="137" w="210" h="-1" measuredW="93" measuredH="24" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="160" y="138" w="-1" h="-1" measuredW="45" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Cliente%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::ComboBox" x="580" y="136" w="210" h="-1" measuredW="93" measuredH="24" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="517" y="140" w="-1" h="-1" measuredW="56" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Empresa%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="110" y="97" w="-1" h="-1" measuredW="126" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Processos%20DNPM</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Canvas" x="508" y="177" w="741" h="414" measuredW="100" measuredH="70" zOrder="7" locked="true" isInGroup="-1"/>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Arrow" x="242" y="339" w="259" h="31" measuredW="150" measuredH="100" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="551" y="190" w="267" h="-1" measuredW="56" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Processo</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Canvas" x="536" y="184" w="698" h="38" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="755" y="358" w="69" h="-1" measuredW="59" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Endere%E7o%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="769" y="380" w="-1" h="-1" measuredW="45" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Cidade%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="769" y="402" w="-1" h="-1" measuredW="45" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Estado%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="678" y="292" w="162" h="-1" measuredW="131" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Identifica%E7%E3o%20da%20%C1rea%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::Label" x="764" y="315" w="101" h="-1" measuredW="56" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tamanho%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Label" x="746" y="335" w="101" h="-1" measuredW="70" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Subst%E2ncia%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Label" x="693" y="228" w="162" h="-1" measuredW="125" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>N%FAmero%20do%20Processo%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="831" y="229" w="-1" h="-1" measuredW="78" measuredH="21" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>012001/2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="834" y="291" w="-1" h="-1" measuredW="61" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Laranjinha</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Label" x="834" y="314" w="-1" h="-1" measuredW="73" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>40%20hectares</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Label" x="834" y="334" w="-1" h="-1" measuredW="43" measuredH="21" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Granito</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Label" x="833" y="357" w="-1" h="-1" measuredW="64" measuredH="21" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Alto%20Colina</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Label" x="832" y="383" w="-1" h="-1" measuredW="148" measuredH="21" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Venda%20Nova%20do%20Imigrante</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="832" y="401" w="-1" h="-1" measuredW="84" measuredH="21" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Esp%EDrito%20Santo</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Label" x="704" y="251" w="162" h="-1" measuredW="105" measuredH="21" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20Abertura%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="831" y="250" w="-1" h="-1" measuredW="74" measuredH="21" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>04/02/2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Canvas" x="502" y="603" w="741" h="213" measuredW="100" measuredH="70" zOrder="27" locked="true" isInGroup="-1"/>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Canvas" x="533" y="613" w="698" h="38" measuredW="100" measuredH="70" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Label" x="548" y="619" w="267" h="-1" measuredW="159" measuredH="21" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Requerimento%20de%20Pesquisa</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Label" x="530" y="663" w="221" h="-1" measuredW="177" measuredH="21" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20Entrada%3A%2004/02/2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Canvas" x="536" y="424" w="698" h="38" measuredW="100" measuredH="70" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Label" x="551" y="430" w="267" h="-1" measuredW="126" measuredH="21" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Licen%E7as%20Associadas</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::DataGrid" x="536" y="470" w="693" h="118" measuredW="261" measuredH="111" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>N%FAmero%2C%20%D3rg%E3o%2C%20Tipo%2C%20Data%20de%20Validade%0A102032%2C%20IEMA%2C%20LP%2C%2002/05/2009%0A102034%2C%20IEMA%2C%20LI%2C%2002/05/2010%0A102080%2C%20IEMA%2C%20LO%2C%2002/05/2013</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Canvas" x="530" y="692" w="698" h="38" measuredW="100" measuredH="70" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Label" x="545" y="698" w="267" h="-1" measuredW="67" measuredH="21" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Exig%EAncias</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::DataGrid" x="530" y="738" w="693" h="63" measuredW="618" measuredH="51" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Protocolo%2C%20Data%20de%20Publica%E7%E3o%2C%20Descri%E7%E3o%2C%20Dias%20de%20Prazo%2C%20Data%20de%20Vencimento%2C%20Arquivo%0A123123%2C%2005/03/2012%2C%20entregar%20relat%F3rio%20xxx%2C%2060%2C%2004/05/2012%2C</text>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Icon" x="1182" y="770" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Icon" x="1190" y="699" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Canvas" x="502" y="824" w="820" h="500" measuredW="100" measuredH="70" zOrder="39" locked="false" isInGroup="-1"/>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Canvas" x="533" y="834" w="698" h="38" measuredW="100" measuredH="70" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Label" x="548" y="840" w="267" h="-1" measuredW="115" measuredH="21" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Alvar%E1%20de%20Pesquisa</text>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::Label" x="536" y="889" w="221" h="-1" measuredW="191" measuredH="21" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20Publica%E7%E3o%3A%2006/10/2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::Canvas" x="523" y="971" w="698" h="38" measuredW="100" measuredH="70" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::Label" x="538" y="977" w="267" h="-1" measuredW="67" measuredH="21" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Exig%EAncias</text>
+      </controlProperties>
+    </control>
+    <control controlID="87" controlTypeID="com.balsamiq.mockups::DataGrid" x="523" y="1017" w="693" h="63" measuredW="618" measuredH="51" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Protocolo%2C%20Data%20de%20Publica%E7%E3o%2C%20Descri%E7%E3o%2C%20Dias%20de%20Prazo%2C%20Data%20de%20Vencimento%2C%20Arquivo%0A123123%2C%2005/03/2012%2C%20entregar%20relat%F3rio%20xxx%2C%2060%2C%2004/05/2012%2C</text>
+      </controlProperties>
+    </control>
+    <control controlID="88" controlTypeID="com.balsamiq.mockups::Icon" x="1175" y="1049" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="89" controlTypeID="com.balsamiq.mockups::Icon" x="1183" y="978" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::Label" x="580" y="1132" w="342" h="-1" measuredW="294" measuredH="21" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Validade%3A%2006/10/2015%20%3D%203%20anos%20ap%F3s%20a%20publica%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::DataGrid" x="580" y="1183" w="-1" h="-1" measuredW="525" measuredH="111" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dias%2C%20Data%2C%20E-mails%0A150%2C%2006/05/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A120%2C%2006/06/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A90%2C%2006/07/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br</text>
+      </controlProperties>
+    </control>
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::Label" x="584" y="1163" w="94" h="-1" measuredW="77" measuredH="21" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifica%E7%F5es%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::Label" x="538" y="915" w="360" h="-1" measuredW="326" measuredH="21" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20Entrega%20do%20Relat%F3rio%20de%20Pesquisa%3A%2006/07/2015</text>
+      </controlProperties>
+    </control>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::Label" x="536" y="940" w="393" h="-1" measuredW="342" measuredH="21" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20Aprova%E7%E3o%20do%20Relat%F3rio%20de%20Pesquisa%3A%2006/08/2015</text>
+      </controlProperties>
+    </control>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::TabBar" x="536" y="1099" w="761" h="212" measuredW="724" measuredH="100" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>0</selectedIndex>
+        <text>Validade%2C%20Notifica%E7%E3o%20de%20Pesquisa%2C%20Taxa%20Anual%20por%20Hectare%2C%20%20Requerimento%20de%20Lavra%2C%20Requerimento%20de%20LP%20Total</text>
+      </controlProperties>
+    </control>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::Canvas" x="1276" y="1140" w="754" h="215" measuredW="100" measuredH="70" zOrder="54" locked="false" isInGroup="-1"/>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::Label" x="1298" y="1147" w="-1" h="-1" measuredW="139" measuredH="21" zOrder="55" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Requerimento%20de%20Lavra</text>
+      </controlProperties>
+    </control>
+    <control controlID="117" controlTypeID="com.balsamiq.mockups::StickyNote" x="1780" y="1049" w="289" h="199" measuredW="109" measuredH="123" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1-%20Somente%20%E9%20criado%20ap%F3s%20a%20aprova%E7%E3o%20do%20relat%F3rio%20de%20pesquisa%0A2-%20O%20vencimento%20%E9%201%20ano%20ap%F3s%20a%20aprova%E7%E3o%20do%20relat%F3rio%20de%20pesquisa%0A3-%20Criar%20automaticamente%20tr%EAs%20notifica%E7%F5es%20%286%20meses%2C%203%20meses%20e%201%20m%EAs%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::Label" x="1293" y="1181" w="487" h="-1" measuredW="437" measuredH="21" zOrder="57" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20Limite%3A%2006/08/2016%20%3D%201%20ano%20ap%F3s%20aprova%E7%E3o%20do%20relat%F3rio%20de%20pesquisa</text>
+      </controlProperties>
+    </control>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::DataGrid" x="1293" y="1234" w="-1" h="-1" measuredW="526" measuredH="111" zOrder="58" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dias%2C%20Data%2C%20E-mails%0A180%2C%2006/02/2016%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A90%2C%2006/05/2016%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A30%2C%2006/07/2016%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br</text>
+      </controlProperties>
+    </control>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::Label" x="1297" y="1214" w="94" h="-1" measuredW="77" measuredH="21" zOrder="59" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifica%E7%F5es%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::Canvas" x="1324" y="1369" w="754" h="215" measuredW="100" measuredH="70" zOrder="64" locked="true" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="129" controlTypeID="com.balsamiq.mockups::Label" x="1346" y="1376" w="-1" h="-1" measuredW="143" measuredH="21" zOrder="60" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifica%E7%E3o%20de%20Pesquisa</text>
+      </controlProperties>
+    </control>
+    <control controlID="130" controlTypeID="com.balsamiq.mockups::StickyNote" x="1985" y="1337" w="271" h="140" measuredW="109" measuredH="123" zOrder="71" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1-%20O%20vencimento%20%E9%2060%20dias%20ap%F3s%20a%20publica%E7%E3o%20do%20alvar%E1%20pesquisa%0A2-%20Criar%20automaticamente%20duas%20notifica%E7%F5es%20%2830%20e%2015%20dias%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="131" controlTypeID="com.balsamiq.mockups::Label" x="1341" y="1410" w="487" h="-1" measuredW="305" measuredH="21" zOrder="61" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20Limite%3A%2006/12/2012%20%3D%2060%20dias%20ap%F3s%20publica%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="132" controlTypeID="com.balsamiq.mockups::DataGrid" x="1341" y="1463" w="-1" h="-1" measuredW="526" measuredH="81" zOrder="62" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dias%2C%20Data%2C%20E-mails%0A30%2C%2006/09/2012%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A15%2C%2021/09/2012%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br</text>
+      </controlProperties>
+    </control>
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::Label" x="1345" y="1443" w="94" h="-1" measuredW="77" measuredH="21" zOrder="63" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifica%E7%F5es%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="141" controlTypeID="com.balsamiq.mockups::Label" x="1340" y="1599" w="-1" h="-1" measuredW="140" measuredH="21" zOrder="65" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Taxa%20Anual%20por%20Hectare</text>
+      </controlProperties>
+    </control>
+    <control controlID="142" controlTypeID="com.balsamiq.mockups::Label" x="1335" y="1633" w="487" h="-1" measuredW="141" measuredH="21" zOrder="66" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20Limite%3A%2031/01/2013</text>
+      </controlProperties>
+    </control>
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::DataGrid" x="1335" y="1686" w="-1" h="-1" measuredW="521" measuredH="81" zOrder="67" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dias%2C%20Data%2C%20E-mails%0A30%2C%2031/12/2012%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A15%2C%2015/01/2013%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br</text>
+      </controlProperties>
+    </control>
+    <control controlID="144" controlTypeID="com.balsamiq.mockups::Label" x="1339" y="1666" w="94" h="-1" measuredW="77" measuredH="21" zOrder="68" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifica%E7%F5es%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="150" controlTypeID="com.balsamiq.mockups::StickyNote" x="2090" y="1586" w="270" h="225" measuredW="109" measuredH="123" zOrder="70" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1-%20%C9%20peri%F3dica%20%28anual%29%0A2-%20A%20data%20de%20vecimento%20%E9%20%FAltimo%20dia%20%FAtil%20do%20%20primeiro%20m%EAs%20do%20pr%F3ximo%20semestre%0A3-%20Criar%20automaticamente%20duas%20notifica%E7%F5es%20%2830%20e%2015%20dias%29%0A4-%20No%20pr%F3ximo%20ano%20verifica%20se%20o%2031%20%E9%20%FAtil%2C%20se%20n%E3o%20antecipa%20o%20dia</text>
+      </controlProperties>
+    </control>
+    <control controlID="151" controlTypeID="com.balsamiq.mockups::Canvas" x="1318" y="1592" w="754" h="215" measuredW="100" measuredH="70" zOrder="69" locked="true" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::Label" x="1345" y="1828" w="-1" h="-1" measuredW="154" measuredH="21" zOrder="72" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Requerimento%20de%20LP%20Total</text>
+      </controlProperties>
+    </control>
+    <control controlID="163" controlTypeID="com.balsamiq.mockups::Label" x="1340" y="1862" w="487" h="-1" measuredW="141" measuredH="21" zOrder="73" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20Limite%3A%2031/01/2013</text>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::DataGrid" x="1340" y="1915" w="-1" h="-1" measuredW="521" measuredH="81" zOrder="74" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dias%2C%20Data%2C%20E-mails%0A30%2C%2031/12/2012%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A15%2C%2015/01/2013%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br</text>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::Label" x="1344" y="1895" w="94" h="-1" measuredW="77" measuredH="21" zOrder="75" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifica%E7%F5es%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="171" controlTypeID="com.balsamiq.mockups::Canvas" x="1323" y="1821" w="754" h="215" measuredW="100" measuredH="70" zOrder="76" locked="true" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="173" controlTypeID="com.balsamiq.mockups::Canvas" x="488" y="1337" w="820" h="420" measuredW="100" measuredH="70" zOrder="77" locked="false" isInGroup="-1"/>
+    <control controlID="174" controlTypeID="com.balsamiq.mockups::Canvas" x="519" y="1347" w="698" h="38" measuredW="100" measuredH="70" zOrder="78" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="175" controlTypeID="com.balsamiq.mockups::Label" x="534" y="1353" w="267" h="-1" measuredW="139" measuredH="21" zOrder="79" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Requerimento%20de%20Lavra</text>
+      </controlProperties>
+    </control>
+    <control controlID="176" controlTypeID="com.balsamiq.mockups::Label" x="522" y="1402" w="221" h="-1" measuredW="177" measuredH="21" zOrder="80" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20abertura%3A%2006/10/2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="177" controlTypeID="com.balsamiq.mockups::Canvas" x="516" y="1435" w="698" h="38" measuredW="100" measuredH="70" zOrder="81" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="178" controlTypeID="com.balsamiq.mockups::Label" x="531" y="1441" w="267" h="-1" measuredW="67" measuredH="21" zOrder="82" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Exig%EAncias</text>
+      </controlProperties>
+    </control>
+    <control controlID="179" controlTypeID="com.balsamiq.mockups::DataGrid" x="516" y="1481" w="693" h="63" measuredW="618" measuredH="51" zOrder="83" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Protocolo%2C%20Data%20de%20Publica%E7%E3o%2C%20Descri%E7%E3o%2C%20Dias%20de%20Prazo%2C%20Data%20de%20Vencimento%2C%20Arquivo%0A123123%2C%2005/03/2012%2C%20entregar%20relat%F3rio%20xxx%2C%2060%2C%2004/05/2012%2C</text>
+      </controlProperties>
+    </control>
+    <control controlID="180" controlTypeID="com.balsamiq.mockups::Icon" x="1168" y="1513" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="84" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="181" controlTypeID="com.balsamiq.mockups::Icon" x="1176" y="1442" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="85" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="184" controlTypeID="com.balsamiq.mockups::Label" x="515" y="1572" w="342" h="-1" measuredW="271" measuredH="21" zOrder="86" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Validade%3A%2006/10/2013%20%3D%201%20ano%20ap%F3s%20a%20abertura</text>
+      </controlProperties>
+    </control>
+    <control controlID="185" controlTypeID="com.balsamiq.mockups::DataGrid" x="515" y="1623" w="-1" h="-1" measuredW="525" measuredH="111" zOrder="153" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dias%2C%20Data%2C%20E-mails%0A150%2C%2006/05/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A120%2C%2006/06/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A90%2C%2006/07/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br</text>
+      </controlProperties>
+    </control>
+    <control controlID="186" controlTypeID="com.balsamiq.mockups::Label" x="519" y="1603" w="94" h="-1" measuredW="77" measuredH="21" zOrder="87" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifica%E7%F5es%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="194" controlTypeID="com.balsamiq.mockups::Canvas" x="494" y="1772" w="820" h="420" measuredW="100" measuredH="70" zOrder="88" locked="false" isInGroup="-1"/>
+    <control controlID="195" controlTypeID="com.balsamiq.mockups::Canvas" x="525" y="1782" w="698" h="38" measuredW="100" measuredH="70" zOrder="89" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::Label" x="540" y="1788" w="267" h="-1" measuredW="118" measuredH="21" zOrder="90" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Concess%E3o%20de%20lavra</text>
+      </controlProperties>
+    </control>
+    <control controlID="197" controlTypeID="com.balsamiq.mockups::Label" x="528" y="1837" w="221" h="-1" measuredW="190" measuredH="21" zOrder="91" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20publica%E7%E3o%3A%2006/10/2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::Canvas" x="522" y="1870" w="698" h="38" measuredW="100" measuredH="70" zOrder="92" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="199" controlTypeID="com.balsamiq.mockups::Label" x="537" y="1876" w="267" h="-1" measuredW="67" measuredH="21" zOrder="93" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Exig%EAncias</text>
+      </controlProperties>
+    </control>
+    <control controlID="200" controlTypeID="com.balsamiq.mockups::DataGrid" x="522" y="1916" w="693" h="63" measuredW="618" measuredH="51" zOrder="94" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Protocolo%2C%20Data%20de%20Publica%E7%E3o%2C%20Descri%E7%E3o%2C%20Dias%20de%20Prazo%2C%20Data%20de%20Vencimento%2C%20Arquivo%0A123123%2C%2005/03/2012%2C%20entregar%20relat%F3rio%20xxx%2C%2060%2C%2004/05/2012%2C</text>
+      </controlProperties>
+    </control>
+    <control controlID="201" controlTypeID="com.balsamiq.mockups::Icon" x="1174" y="1948" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="95" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="202" controlTypeID="com.balsamiq.mockups::Icon" x="1182" y="1877" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="96" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="203" controlTypeID="com.balsamiq.mockups::Label" x="521" y="2007" w="506" h="-1" measuredW="459" measuredH="21" zOrder="97" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Requerimento%20de%20Imiss%E3o%20de%20Posse%3A%2006/01/2013%20%3D%2090%20dias%20ap%F3s%20a%20concess%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="204" controlTypeID="com.balsamiq.mockups::DataGrid" x="521" y="2058" w="-1" h="-1" measuredW="525" measuredH="111" zOrder="98" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dias%2C%20Data%2C%20E-mails%0A150%2C%2006/05/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A120%2C%2006/06/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A90%2C%2006/07/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br</text>
+      </controlProperties>
+    </control>
+    <control controlID="205" controlTypeID="com.balsamiq.mockups::Label" x="525" y="2038" w="94" h="-1" measuredW="77" measuredH="21" zOrder="99" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifica%E7%F5es%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="213" controlTypeID="com.balsamiq.mockups::Canvas" x="494" y="2209" w="820" h="598" measuredW="100" measuredH="70" zOrder="100" locked="false" isInGroup="-1"/>
+    <control controlID="214" controlTypeID="com.balsamiq.mockups::Canvas" x="525" y="2219" w="698" h="38" measuredW="100" measuredH="70" zOrder="101" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="215" controlTypeID="com.balsamiq.mockups::Label" x="540" y="2225" w="267" h="-1" measuredW="87" measuredH="21" zOrder="102" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Licenciamento</text>
+      </controlProperties>
+    </control>
+    <control controlID="216" controlTypeID="com.balsamiq.mockups::Label" x="528" y="2274" w="221" h="-1" measuredW="191" measuredH="21" zOrder="103" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20Publica%E7%E3o%3A%2006/10/2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="217" controlTypeID="com.balsamiq.mockups::Canvas" x="518" y="2303" w="698" h="38" measuredW="100" measuredH="70" zOrder="104" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="218" controlTypeID="com.balsamiq.mockups::Label" x="955" y="2653" w="267" h="-1" measuredW="67" measuredH="21" zOrder="105" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Exig%EAncias</text>
+      </controlProperties>
+    </control>
+    <control controlID="219" controlTypeID="com.balsamiq.mockups::DataGrid" x="518" y="2349" w="693" h="63" measuredW="618" measuredH="51" zOrder="106" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Protocolo%2C%20Data%20de%20Publica%E7%E3o%2C%20Descri%E7%E3o%2C%20Dias%20de%20Prazo%2C%20Data%20de%20Vencimento%2C%20Arquivo%0A123123%2C%2005/03/2012%2C%20entregar%20relat%F3rio%20xxx%2C%2060%2C%2004/05/2012%2C</text>
+      </controlProperties>
+    </control>
+    <control controlID="220" controlTypeID="com.balsamiq.mockups::Icon" x="1170" y="2381" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="107" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="221" controlTypeID="com.balsamiq.mockups::Icon" x="1178" y="2310" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="108" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="224" controlTypeID="com.balsamiq.mockups::TabBar" x="525" y="2436" w="761" h="217" measuredW="337" measuredH="100" zOrder="109" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>0</selectedIndex>
+        <text>Validade%2C%20Entrega%20de%20Licen%E7a%20ou%20Protocolo</text>
+      </controlProperties>
+    </control>
+    <control controlID="225" controlTypeID="com.balsamiq.mockups::Label" x="556" y="2474" w="342" h="-1" measuredW="126" measuredH="21" zOrder="110" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Validade%3A%2006/10/2015</text>
+      </controlProperties>
+    </control>
+    <control controlID="226" controlTypeID="com.balsamiq.mockups::DataGrid" x="569" y="2520" w="-1" h="-1" measuredW="525" measuredH="111" zOrder="111" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dias%2C%20Data%2C%20E-mails%0A150%2C%2006/05/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A120%2C%2006/06/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A90%2C%2006/07/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br</text>
+      </controlProperties>
+    </control>
+    <control controlID="227" controlTypeID="com.balsamiq.mockups::Label" x="573" y="2500" w="94" h="-1" measuredW="77" measuredH="21" zOrder="112" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifica%E7%F5es%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="235" controlTypeID="com.balsamiq.mockups::Canvas" x="523" y="2654" w="698" h="38" measuredW="100" measuredH="70" zOrder="113" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="236" controlTypeID="com.balsamiq.mockups::Label" x="538" y="2660" w="267" h="-1" measuredW="126" measuredH="21" zOrder="114" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Licen%E7as%20Associadas</text>
+      </controlProperties>
+    </control>
+    <control controlID="237" controlTypeID="com.balsamiq.mockups::DataGrid" x="523" y="2700" w="693" h="92" measuredW="261" measuredH="111" zOrder="115" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>N%FAmero%2C%20%D3rg%E3o%2C%20Tipo%2C%20Data%20de%20Validade%0A102032%2C%20IEMA%2C%20LP%2C%2002/05/2009%0A102034%2C%20IEMA%2C%20LI%2C%2002/05/2010%0A102080%2C%20IEMA%2C%20LO%2C%2002/05/2013</text>
+      </controlProperties>
+    </control>
+    <control controlID="248" controlTypeID="com.balsamiq.mockups::Canvas" x="1361" y="2109" w="820" h="449" measuredW="100" measuredH="70" zOrder="116" locked="false" isInGroup="-1"/>
+    <control controlID="249" controlTypeID="com.balsamiq.mockups::Canvas" x="1392" y="2119" w="698" h="38" measuredW="100" measuredH="70" zOrder="117" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="250" controlTypeID="com.balsamiq.mockups::Label" x="1407" y="2125" w="267" h="-1" measuredW="53" measuredH="21" zOrder="118" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Extra%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="251" controlTypeID="com.balsamiq.mockups::Label" x="1395" y="2174" w="221" h="-1" measuredW="191" measuredH="21" zOrder="119" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20Publica%E7%E3o%3A%2006/10/2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="252" controlTypeID="com.balsamiq.mockups::Canvas" x="1385" y="2203" w="698" h="38" measuredW="100" measuredH="70" zOrder="120" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="254" controlTypeID="com.balsamiq.mockups::DataGrid" x="1385" y="2249" w="693" h="63" measuredW="618" measuredH="51" zOrder="121" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Protocolo%2C%20Data%20de%20Publica%E7%E3o%2C%20Descri%E7%E3o%2C%20Dias%20de%20Prazo%2C%20Data%20de%20Vencimento%2C%20Arquivo%0A123123%2C%2005/03/2012%2C%20entregar%20relat%F3rio%20xxx%2C%2060%2C%2004/05/2012%2C</text>
+      </controlProperties>
+    </control>
+    <control controlID="255" controlTypeID="com.balsamiq.mockups::Icon" x="2037" y="2281" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="122" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="256" controlTypeID="com.balsamiq.mockups::Icon" x="2045" y="2210" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="123" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="271" controlTypeID="com.balsamiq.mockups::Label" x="2043" y="2367" w="-1" h="-1" measuredW="177" measuredH="21" zOrder="160" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Prazo%20para%20Licen%E7a%20Ambiental</text>
+      </controlProperties>
+    </control>
+    <control controlID="272" controlTypeID="com.balsamiq.mockups::Label" x="2046" y="2395" w="487" h="-1" measuredW="317" measuredH="21" zOrder="161" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20Limite%3A%2006/12/2012%20%3D%2060%20dias%20ap%F3s%20a%20publica%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="273" controlTypeID="com.balsamiq.mockups::DataGrid" x="2051" y="2453" w="-1" h="-1" measuredW="521" measuredH="81" zOrder="162" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dias%2C%20Data%2C%20E-mails%0A30%2C%2031/12/2012%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A15%2C%2015/01/2013%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br</text>
+      </controlProperties>
+    </control>
+    <control controlID="274" controlTypeID="com.balsamiq.mockups::Label" x="2055" y="2433" w="94" h="-1" measuredW="77" measuredH="21" zOrder="163" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifica%E7%F5es%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="280" controlTypeID="com.balsamiq.mockups::Canvas" x="2021" y="2359" w="754" h="215" measuredW="100" measuredH="70" zOrder="159" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="281" controlTypeID="com.balsamiq.mockups::Label" x="530" y="2309" w="267" h="-1" measuredW="67" measuredH="21" zOrder="124" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Exig%EAncias</text>
+      </controlProperties>
+    </control>
+    <control controlID="282" controlTypeID="com.balsamiq.mockups::Label" x="1394" y="2214" w="267" h="-1" measuredW="67" measuredH="21" zOrder="125" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Exig%EAncias</text>
+      </controlProperties>
+    </control>
+    <control controlID="283" controlTypeID="com.balsamiq.mockups::Canvas" x="1373" y="132" w="820" h="249" measuredW="100" measuredH="70" zOrder="126" locked="false" isInGroup="-1"/>
+    <control controlID="284" controlTypeID="com.balsamiq.mockups::Canvas" x="1404" y="142" w="698" h="38" measuredW="100" measuredH="70" zOrder="127" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="285" controlTypeID="com.balsamiq.mockups::Label" x="1419" y="148" w="267" h="-1" measuredW="26" measuredH="21" zOrder="128" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>RAL</text>
+      </controlProperties>
+    </control>
+    <control controlID="286" controlTypeID="com.balsamiq.mockups::Label" x="1407" y="197" w="221" h="-1" measuredW="195" measuredH="21" zOrder="129" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20Vencimento%3A%2015/03/2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="293" controlTypeID="com.balsamiq.mockups::DataGrid" x="1397" y="248" w="-1" h="-1" measuredW="525" measuredH="111" zOrder="130" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dias%2C%20Data%2C%20E-mails%0A150%2C%2006/05/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A120%2C%2006/06/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A90%2C%2006/07/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br</text>
+      </controlProperties>
+    </control>
+    <control controlID="294" controlTypeID="com.balsamiq.mockups::Label" x="1401" y="228" w="94" h="-1" measuredW="77" measuredH="21" zOrder="131" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifica%E7%F5es%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="303" controlTypeID="com.balsamiq.mockups::StickyNote" x="2127" y="175" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="132" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%C9%20peri%F3dico%20%28anual%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="304" controlTypeID="com.balsamiq.mockups::Canvas" x="1373" y="414" w="820" h="493" measuredW="100" measuredH="70" zOrder="133" locked="true" isInGroup="-1"/>
+    <control controlID="305" controlTypeID="com.balsamiq.mockups::Canvas" x="1404" y="424" w="698" h="38" measuredW="100" measuredH="70" zOrder="134" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="306" controlTypeID="com.balsamiq.mockups::Label" x="1419" y="430" w="267" h="-1" measuredW="108" measuredH="21" zOrder="135" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Guia%20de%20Utiliza%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="307" controlTypeID="com.balsamiq.mockups::Label" x="1427" y="479" w="294" h="-1" measuredW="207" measuredH="21" zOrder="136" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20requerimento%3A%2030/05/2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="318" controlTypeID="com.balsamiq.mockups::Canvas" x="1385" y="663" w="698" h="38" measuredW="100" measuredH="70" zOrder="137" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="319" controlTypeID="com.balsamiq.mockups::Label" x="1400" y="669" w="267" h="-1" measuredW="67" measuredH="21" zOrder="138" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Exig%EAncias</text>
+      </controlProperties>
+    </control>
+    <control controlID="320" controlTypeID="com.balsamiq.mockups::DataGrid" x="1385" y="709" w="693" h="63" measuredW="618" measuredH="51" zOrder="139" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Protocolo%2C%20Data%20de%20Publica%E7%E3o%2C%20Descri%E7%E3o%2C%20Dias%20de%20Prazo%2C%20Data%20de%20Vencimento%2C%20Arquivo%0A123123%2C%2005/03/2012%2C%20entregar%20relat%F3rio%20xxx%2C%2060%2C%2004/05/2012%2C</text>
+      </controlProperties>
+    </control>
+    <control controlID="321" controlTypeID="com.balsamiq.mockups::Icon" x="2037" y="741" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="140" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PaperClipIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="325" controlTypeID="com.balsamiq.mockups::Label" x="1459" y="531" w="462" h="-1" measuredW="353" measuredH="21" zOrder="141" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20validade%3A%2030/07/2014%20%3D%20data%20de%20Vencimento%20da%20LO</text>
+      </controlProperties>
+    </control>
+    <control controlID="328" controlTypeID="com.balsamiq.mockups::LinkBar" x="204" y="173" w="-1" h="-1" measuredW="141" measuredH="19" zOrder="142" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Novo%2C%20Editar%2C%20Excluir</text>
+      </controlProperties>
+    </control>
+    <control controlID="329" controlTypeID="com.balsamiq.mockups::Label" x="142" y="173" w="-1" h="-1" measuredW="58" measuredH="21" zOrder="143" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Processo%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="330" controlTypeID="com.balsamiq.mockups::LinkBar" x="204" y="203" w="-1" h="-1" measuredW="141" measuredH="19" zOrder="144" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Novo%2C%20Editar%2C%20Excluir</text>
+      </controlProperties>
+    </control>
+    <control controlID="331" controlTypeID="com.balsamiq.mockups::Label" x="142" y="203" w="-1" h="-1" measuredW="47" measuredH="21" zOrder="145" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Regime%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="332" controlTypeID="com.balsamiq.mockups::LinkBar" x="206" y="231" w="-1" h="-1" measuredW="141" measuredH="19" zOrder="146" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Novo%2C%20Editar%2C%20Excluir</text>
+      </controlProperties>
+    </control>
+    <control controlID="333" controlTypeID="com.balsamiq.mockups::Label" x="160" y="234" w="-1" h="-1" measuredW="28" measuredH="21" zOrder="147" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>RAL%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="334" controlTypeID="com.balsamiq.mockups::LinkBar" x="204" y="257" w="-1" h="-1" measuredW="141" measuredH="19" zOrder="148" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Novo%2C%20Editar%2C%20Excluir</text>
+      </controlProperties>
+    </control>
+    <control controlID="335" controlTypeID="com.balsamiq.mockups::Label" x="78" y="257" w="-1" h="-1" measuredW="111" measuredH="21" zOrder="149" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Guia%20de%20Utiliza%E7%E3o%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="336" controlTypeID="com.balsamiq.mockups::StickyNote" x="277" y="698" w="224" h="208" measuredW="109" measuredH="123" zOrder="150" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1-%20Os%20regimes%2C%20RAL%20e%20Guia%20de%20utiliza%E7%E3o%20devem%20possuir%20ativo/inativo%0A2-%20os%20inativos%20aparecem%20em%20cinza%20na%20%E1rvore</text>
+      </controlProperties>
+    </control>
+    <control controlID="337" controlTypeID="com.balsamiq.mockups::StickyNote" x="1234" y="738" w="109" h="159" measuredW="109" measuredH="123" zOrder="151" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nesta%20tela%2C%20os%20anexos%20apenas%20s%E3o%20para%20visualiza%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="338" controlTypeID="com.balsamiq.mockups::Label" x="752" y="271" w="162" h="-1" measuredW="143" measuredH="21" zOrder="152" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Consultoria%3A%20Ambientalis</text>
+      </controlProperties>
+    </control>
+    <control controlID="340" controlTypeID="__group__" x="1229" y="2585" w="612" h="210" measuredW="612" measuredH="210" zOrder="154" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="238" controlTypeID="com.balsamiq.mockups::Label" x="24" y="15" w="204" h="-1" measuredW="193" measuredH="21" zOrder="1" locked="false" isInGroup="340">
+          <controlProperties>
+            <text>Entrega%20de%20Licen%E7a%20ou%20Protocolo</text>
+          </controlProperties>
+        </control>
+        <control controlID="239" controlTypeID="com.balsamiq.mockups::Label" x="19" y="49" w="487" h="-1" measuredW="317" measuredH="21" zOrder="2" locked="false" isInGroup="340">
+          <controlProperties>
+            <text>Data%20Limite%3A%2006/12/2012%20%3D%2060%20dias%20ap%F3s%20a%20publica%E7%E3o</text>
+          </controlProperties>
+        </control>
+        <control controlID="240" controlTypeID="com.balsamiq.mockups::DataGrid" x="19" y="102" w="572" h="88" measuredW="521" measuredH="81" zOrder="3" locked="false" isInGroup="340">
+          <controlProperties>
+            <text>Dias%2C%20Data%2C%20E-mails%0A30%2C%2031/12/2012%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A15%2C%2015/01/2013%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br</text>
+          </controlProperties>
+        </control>
+        <control controlID="241" controlTypeID="com.balsamiq.mockups::Label" x="23" y="82" w="94" h="-1" measuredW="77" measuredH="21" zOrder="4" locked="false" isInGroup="340">
+          <controlProperties>
+            <text>Notifica%E7%F5es%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="339" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="612" h="210" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="340"/>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="342" controlTypeID="com.balsamiq.mockups::TabBar" x="1361" y="2327" w="633" h="217" measuredW="321" measuredH="100" zOrder="155" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>0</selectedIndex>
+        <text>Validade%2C%20Prazo%20para%20Licen%E7a%20Ambiental</text>
+      </controlProperties>
+    </control>
+    <control controlID="343" controlTypeID="com.balsamiq.mockups::Label" x="1392" y="2365" w="342" h="-1" measuredW="126" measuredH="21" zOrder="156" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Validade%3A%2006/10/2015</text>
+      </controlProperties>
+    </control>
+    <control controlID="344" controlTypeID="com.balsamiq.mockups::DataGrid" x="1405" y="2411" w="574" h="118" measuredW="525" measuredH="111" zOrder="157" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dias%2C%20Data%2C%20E-mails%0A150%2C%2006/05/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A120%2C%2006/06/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br%0A90%2C%2006/07/2015%2C%20ambientalis@ambientalis.com.br%3B%20fornogrande@fornogrande.com.br</text>
+      </controlProperties>
+    </control>
+    <control controlID="345" controlTypeID="com.balsamiq.mockups::Label" x="1409" y="2391" w="94" h="-1" measuredW="77" measuredH="21" zOrder="158" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifica%E7%F5es%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="346" controlTypeID="com.balsamiq.mockups::Arrow" x="812" y="2458" w="453" h="127" measuredW="150" measuredH="100" zOrder="164" locked="false" isInGroup="-1"/>
+    <control controlID="347" controlTypeID="com.balsamiq.mockups::Arrow" x="1655" y="2334" w="382" h="127" measuredW="150" measuredH="100" zOrder="165" locked="false" isInGroup="-1"/>
+    <control controlID="348" controlTypeID="com.balsamiq.mockups::Label" x="1459" y="504" w="294" h="-1" measuredW="179" measuredH="21" zOrder="166" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20de%20Emiss%E3o%3A%2030/07/2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="349" controlTypeID="com.balsamiq.mockups::Label" x="1387" y="559" w="479" h="-1" measuredW="439" measuredH="21" zOrder="167" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Prazo%20Limite%20para%20Renova%E7%E3o%3A%2030/05/2014%20%3D%2060%20dias%20antes%20do%20vencimento</text>
+      </controlProperties>
+    </control>
+    <control controlID="350" controlTypeID="com.balsamiq.mockups::Label" x="1439" y="584" w="479" h="-1" measuredW="383" measuredH="21" zOrder="168" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pr%F3xima%20Notifica%E7%E3o%3A%2001/05/2014%20%3D%2030%20dias%20antes%20do%20prazo%20limite</text>
+      </controlProperties>
+    </control>
+    <control controlID="351" controlTypeID="com.balsamiq.mockups::Button" x="1801" y="618" w="-1" h="-1" measuredW="71" measuredH="27" zOrder="169" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Renovar</text>
+      </controlProperties>
+    </control>
+    <control controlID="352" controlTypeID="com.balsamiq.mockups::Image" x="974" y="226" w="-1" h="-1" measuredW="269" measuredH="71" zOrder="170" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/sigmine.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

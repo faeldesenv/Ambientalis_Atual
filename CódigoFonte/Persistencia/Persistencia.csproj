@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EDE1BCE2-0D92-4B2E-A6BC-A66079D6D5CC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Persistencia</RootNamespace>
+    <AssemblyName>Persistencia</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>C:\CONTROLS\Dependencias NHibernate\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>C:\CONTROLS\Dependencias NHibernate\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\CONTROLS2\NHibernate 3.3\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="LinFu.DynamicProxy">
+      <HintPath>C:\CONTROLS\Dependencias NHibernate\LinFu.DynamicProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\CONTROLS2\NHibernate 3.3\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Caches.SysCache2, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=6876f2ea66c9f443, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\CONTROLS2\NHibernate 3.3\NHibernate.Caches.SysCache2.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Mapping.Attributes, Version=3.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\CONTROLS2\NHibernate 3.3\NHibernate.Mapping.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Data.Linq">
+      <HintPath>C:\CONTROLS\Dependencias NHibernate\Remotion.Data.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\DAOBaseNHibernate.cs" />
+    <Compile Include="DAO\IDAOBase.cs" />
+    <Compile Include="Fabrica\CriarBanco.cs" />
+    <Compile Include="Fabrica\FabricaDAONHibernateBase.cs" />
+    <Compile Include="Fabrica\NHibernateSession.cs" />
+    <Compile Include="Fabrica\NHibernateSessionManager.cs" />
+    <Compile Include="Fabrica\SessionFactoryNHibernate.cs" />
+    <Compile Include="Filtros\Filtro.cs" />
+    <Compile Include="Filtros\FiltroBetween.cs" />
+    <Compile Include="Filtros\FiltroCache.cs" />
+    <Compile Include="Filtros\FiltroCount.cs" />
+    <Compile Include="Filtros\FiltroCreateAlias.cs" />
+    <Compile Include="Filtros\FiltroCreateCriteria.cs" />
+    <Compile Include="Filtros\FiltroDistinct.cs" />
+    <Compile Include="Filtros\FiltroEq.cs" />
+    <Compile Include="Filtros\FiltroExample.cs" />
+    <Compile Include="Filtros\FiltroFaixaResultado.cs" />
+    <Compile Include="Filtros\FiltroFetchJoin.cs" />
+    <Compile Include="Filtros\FiltroIn.cs" />
+    <Compile Include="Filtros\FiltroIsNull.cs" />
+    <Compile Include="Filtros\FiltroLike.cs" />
+    <Compile Include="Filtros\FiltroMaior.cs" />
+    <Compile Include="Filtros\FiltroMaiorEntreDuasPropriedades.cs" />
+    <Compile Include="Filtros\FiltroMaiorOuIgual.cs" />
+    <Compile Include="Filtros\FiltroMax.cs" />
+    <Compile Include="Filtros\FiltroMaxResults.cs" />
+    <Compile Include="Filtros\FiltroMenor.cs" />
+    <Compile Include="Filtros\FiltroMenorOuIgual.cs" />
+    <Compile Include="Filtros\FiltroMin.cs" />
+    <Compile Include="Filtros\FiltroNaoIgual.cs" />
+    <Compile Include="Filtros\FiltroNotIn.cs" />
+    <Compile Include="Filtros\FiltroNotNull.cs" />
+    <Compile Include="Filtros\FiltroOrderAsc.cs" />
+    <Compile Include="Filtros\FiltroOrderDesc.cs" />
+    <Compile Include="Filtros\FiltroOu.cs" />
+    <Compile Include="Filtros\Filtros.cs" />
+    <Compile Include="Filtros\FiltroSoma.cs" />
+    <Compile Include="Filtros\FiltroValorMaximo.cs" />
+    <Compile Include="Filtros\FiltroValorMinimo.cs" />
+    <Compile Include="Filtros\IFiltro.cs" />
+    <Compile Include="Filtros\IFiltroOu.cs" />
+    <Compile Include="Modelo\ConfigMultiEmpresa.cs" />
+    <Compile Include="Modelo\ObjetoBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\PathApplication.cs" />
+    <Compile Include="Utilitarios\PersistenciaUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

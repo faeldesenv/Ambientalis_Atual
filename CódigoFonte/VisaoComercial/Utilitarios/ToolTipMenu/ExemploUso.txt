@@ -1,0 +1,3 @@
+﻿$('#focus-example [title]').tipsy({gravity: 's'});
+
+site: http://onehackoranother.com/projects/jquery/tipsy/#download

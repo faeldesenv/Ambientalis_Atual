@@ -1,0 +1,49 @@
+﻿.container
+{
+	border: 1px solid #eff2f2;
+	padding: 10px;
+	background-color: #f4f8f4;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin: 6px;
+	min-height: 420px;
+	height:600px;
+}
+
+.div_container
+{
+	float: left;
+	min-height: 400px;
+	background-color: White;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.NoSelecionado
+{
+    font-weight:bold;
+    font-size: 10pt;
+}
+
+.Button
+{
+    background-position: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 4px 10px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: bold;
+	-moz-box-shadow: 0 1px 2px #343434;
+	-webkit-box-shadow: 0 1px 2px #343434;
+	cursor: pointer;
+	color: white !important;
+	border: 1px solid #88C41A;
+	min-width:100px;
+	background-image: url('../imagens/bg_Button.jpg');
+	background-repeat: repeat-x;
+}
+.Button:hover
+{
+    background-image: url('../imagens/bg_Button_h.jpg');
+}

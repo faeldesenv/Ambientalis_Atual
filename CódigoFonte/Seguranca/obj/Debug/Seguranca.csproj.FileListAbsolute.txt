@@ -1,0 +1,9 @@
+D:\C2TI\SistemaAmbiental\CódigoFonte\Seguranca\bin\Debug\Seguranca.dll
+D:\C2TI\SistemaAmbiental\CódigoFonte\Seguranca\bin\Debug\Seguranca.pdb
+D:\C2TI\SistemaAmbiental\CódigoFonte\Seguranca\obj\Debug\ResolveAssemblyReference.cache
+D:\C2TI\SistemaAmbiental\CódigoFonte\Seguranca\obj\Debug\Seguranca.dll
+D:\C2TI\SistemaAmbiental\CódigoFonte\Seguranca\obj\Debug\Seguranca.pdb
+D:\C2TI\SistemaAmbiental\CódigoFonte\Seguranca\bin\Debug\Modelo.dll
+D:\C2TI\SistemaAmbiental\CódigoFonte\Seguranca\bin\Debug\Persistencia.dll
+D:\C2TI\SistemaAmbiental\CódigoFonte\Seguranca\bin\Debug\Modelo.pdb
+D:\C2TI\SistemaAmbiental\CódigoFonte\Seguranca\bin\Debug\Persistencia.pdb

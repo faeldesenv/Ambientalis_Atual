@@ -1,0 +1,645 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3546" measuredH="2095" mockupW="3546" mockupH="2039">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="329" y="119" w="995" h="1349" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="1036" y="1377" w="233" h="-1" measuredW="133" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Salvar%20permiss%F5es</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::StickyNote" x="3107" y="822" w="251" h="463" measuredW="109" measuredH="123" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1-%20Ao%20salvar%2C%20o%20usu%E1rio%20dever%E1%20receber%20um%20email%20%28em%20seu%20e-mail%20de%20seguran%E7a%29%20informando%20suas%20permiss%F5es%20atuais.%0A%20%0A2-%20Tirar%20o%20check%20box%20de%20permiss%E3o%20de%20editar%20do%20cadastro%20de%20usu%E1rio%0A%20%0A3-%20Cada%20usu%E1rio%20poder%E1%20cadastrar%20seu%20e-mail%20de%20seguran%E7a%20que%20s%F3%20ele%20tem%20acesso%20para%20altera%E7%E3o.%20O%20sistema%20emitir%E1%20uma%20aviso%20caso%20o%20usu%E1rio%20ainda%20n%E3o%20tenha%20cadastrado%20se%20e-mail%20de%20seguran%E7a.%0A%20%0A4-%20Quando%20o%20controle%20de%20edi%E7%E3o%20%E9%20por%20processo%2C%20quem%20pode%20criar%3F%20a%29%20quem%20tem%20pelo%20menos%20um%20processo%3B%20b%29%20apenas%20o%20administador%3B%20c%29%20qualquer%20pessoa.%0A%20%0A5-%20Usu%E1rio%20Consultor%20%28tem%20que%20ter%20essa%20defini%E7%E3o%3F%29%0A%20%0A6-%20Vai%20ter%20contrato%20diferente%20para%20Gest%E3o%20Compartilhada%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="130" controlTypeID="com.balsamiq.mockups::DataGrid" x="2195" y="336" w="793" h="1015" measuredW="662" measuredH="1041" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%2CVisualizadores%2C%20Editor%2C%20Configurar%0AGeral%2C%20Todos%2C%20Usu%E1rio%202%0ADNPM%2C%20Usu%E1rio%201%5C%2C%20Usuario2%2C%20-POR%20EMPRESA-%0A%20%20%20%3E%20C2%20Granitos%20%20%28%2010.862.660/0001-35%29%2C-Usu%E1rio%201%5C%2C%20Usuario2-%2CUsuario%201%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Processo%201000%2C-Usu%E1rio%201%5C%2C%20Usuario2-%2C%20-Usuario%201-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Processo%202000%2C-Usu%E1rio%201%5C%2C%20Usuario2-%2C-Usuario%201-%0A%20%20%20%3E%20Logus%20Granitos%20%28%2030.862.660/0001-10%29%2C-Usu%E1rio%201%5C%2C%20Usuario2-%2C%20-POR%20PROCESSO%20-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Processo%20111%2C-Usu%E1rio%201%5C%2C%20Usuario2-%2CUsuario%201%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Processo%20222%2C-Usu%E1rio%201%5C%2C%20Usuario2-%20%5C%2CUsuario%203%2C%20Usuario%203%0AMeio%20Ambiente%2C%20-POR%20EMPRESA-%2C%20Usuario%203%0A%20%20%20%3E%20C2%20Granitos%20%20%28%2010.862.660/0001-35%29%2C%20Usuario%201%5C%2C%20Usuario%203%2C%20-Usuario%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Processo%20999%2C%20-Usuario%201-%5C%2C%20Usuario%203%2C%20-Usuario%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Processo%20980%2C-Usuario%201-%5C%2C%20Usuario%203%2C%20-Usuario%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Cadastro%20T%E9cnico%20Federal%2C-Usuario%201-%5C%2C%20Usuario%203%2C%20-Usuario%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Outros%2C-Usuario%201-%5C%2C%20Usuario%203%2C%20-Usuario%203-%0A%20%20%20%3E%20Logus%20Granitos%20%28%2030.862.660/0001-10%29%2C-POR%20PROCESSO-%2C%20-Usuario%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Processo%20444%2CUsuario%201%5C%2C%20Usuario%203%2C%20-Usuario%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Processo%20555%2CTodos%5C%2C%20Usuario%203%2C%20-Usuario%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Cadastro%20T%E9cnico%20Federal%2CUsuario%202%5C%2C%20Usuario%203%2C%20-Usuario%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Outros%2CUsuario%201%5C%2C%20Usuario%202%5C%2C%20Usuario%203%2C%20-Usuario%203-%0AContratos%2C%20Todos%2C%20Usu%E1rio%203%0A%20%20%20%20%3E%20C2%20Granitos%20%20%28%2010.862.660/0001-35%29%2C-Todos-%2C%20-Usu%E1rio%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Setor%3A%20Comercial%2C-Todos-%2C%20-Usu%E1rio%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Setor%3A%20Ambiental%2C-Todos-%2C%20-Usu%E1rio%203-%0A%20%20%20%20%3E%20Logus%20Granitos%20%28%2030.862.660/0001-10%29%2C-Todos-%2C%20-Usu%E1rio%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Setor%3A%20Comercial%2C-Todos-%2C%20-Usu%E1rio%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Setor%3A%20Ambiental%2C-Todos-%2C%20-Usu%E1rio%203-%0ADiversos%2CTodos%2C%20Usu%E1rio%203%0A%20%20%20%20%3E%20C2%20Granitos%20%20%28%2010.862.660/0001-35%29%2C-Todos-%2C%20-Usu%E1rio%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Tipo%3A%20Corpo%20de%20Bombeiros%2C-Todos-%2C%20-Usu%E1rio%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Tipo%3A%20ISO%2C-Todos-%2C%20-Usu%E1rio%203-%0A%20%20%20%20%3E%20Logus%20Granitos%20%28%2030.862.660/0001-10%29%2C-Todos-%2C%20-Usu%E1rio%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Tipo%3A%20Corpo%20de%20Bombeiros%2C-Todos-%2C%20-Usu%E1rio%203-%0A%20%20%20%20%20%20%20%20%20%20%20%20-%20Tipo%3A%20ISO%2C-Todos-%2C%20-Usu%E1rio%203-%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="131" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="3165" y="179" w="-1" h="-1" measuredW="78" measuredH="83" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5Bx%5DTodos%0A-%5B%5DUsu%E1rio%201-%0A-%5B%5DUsu%E1rio%202-%0A-%5B%5DUsu%E1rio%203-</text>
+      </controlProperties>
+    </control>
+    <control controlID="132" controlTypeID="com.balsamiq.mockups::Icon" x="2909" y="355" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::Canvas" x="3125" y="133" w="179" h="169" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="134" controlTypeID="com.balsamiq.mockups::FieldSet" x="3140" y="151" w="142" h="133" measuredW="200" measuredH="170" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Visualiza%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="135" controlTypeID="com.balsamiq.mockups::FieldSet" x="3385" y="213" w="142" h="133" measuredW="200" measuredH="170" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Edi%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="136" controlTypeID="com.balsamiq.mockups::RadioButtonGroup" x="3400" y="233" w="-1" h="-1" measuredW="78" measuredH="61" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%28%29Usu%E1rio%201%0A%28o%29Usu%E1rio%202%0A%28%29Usu%E1rio%203</text>
+      </controlProperties>
+    </control>
+    <control controlID="138" controlTypeID="com.balsamiq.mockups::Arrow" x="2922" y="243" w="212" h="121" measuredW="150" measuredH="100" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>bottom</direction>
+        <leftArrow>false</leftArrow>
+      </controlProperties>
+    </control>
+    <control controlID="144" controlTypeID="com.balsamiq.mockups::Icon" x="2909" y="385" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="151" controlTypeID="com.balsamiq.mockups::Icon" x="2909" y="596" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="152" controlTypeID="com.balsamiq.mockups::Icon" x="2909" y="627" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::Icon" x="2909" y="776" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::Icon" x="2909" y="806" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::Icon" x="2909" y="837" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::Icon" x="2909" y="867" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::Icon" x="2909" y="897" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::Icon" x="2909" y="927" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="169" controlTypeID="com.balsamiq.mockups::Icon" x="2909" y="1136" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="177" controlTypeID="com.balsamiq.mockups::Icon" x="2943" y="355" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="178" controlTypeID="com.balsamiq.mockups::Icon" x="2943" y="385" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="179" controlTypeID="com.balsamiq.mockups::Icon" x="2943" y="415" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="182" controlTypeID="com.balsamiq.mockups::Icon" x="2943" y="506" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="183" controlTypeID="com.balsamiq.mockups::Icon" x="2943" y="536" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="184" controlTypeID="com.balsamiq.mockups::Icon" x="2943" y="566" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="185" controlTypeID="com.balsamiq.mockups::Icon" x="2943" y="596" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::Icon" x="2943" y="927" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="203" controlTypeID="com.balsamiq.mockups::Icon" x="2943" y="1136" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="210" controlTypeID="com.balsamiq.mockups::Canvas" x="3367" y="195" w="179" h="169" measuredW="100" measuredH="70" zOrder="28" locked="false" isInGroup="-1"/>
+    <control controlID="211" controlTypeID="com.balsamiq.mockups::Arrow" x="2963" y="322" w="404" h="40" measuredW="150" measuredH="100" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>bottom</direction>
+        <leftArrow>false</leftArrow>
+      </controlProperties>
+    </control>
+    <control controlID="212" controlTypeID="com.balsamiq.mockups::Canvas" x="3125" y="432" w="179" h="169" measuredW="100" measuredH="70" zOrder="32" locked="false" isInGroup="-1"/>
+    <control controlID="215" controlTypeID="com.balsamiq.mockups::Canvas" x="3343" y="395" w="179" h="68" measuredW="100" measuredH="70" zOrder="33" locked="false" isInGroup="-1"/>
+    <control controlID="218" controlTypeID="com.balsamiq.mockups::Arrow" x="2922" y="399" w="203" h="49" measuredW="150" measuredH="100" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>-1</curvature>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+      </controlProperties>
+    </control>
+    <control controlID="219" controlTypeID="com.balsamiq.mockups::ComboBox" x="3142" y="444" w="145" h="-1" measuredW="62" measuredH="24" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Geral</text>
+      </controlProperties>
+    </control>
+    <control controlID="221" controlTypeID="com.balsamiq.mockups::FieldSet" x="3142" y="475" w="142" h="119" measuredW="200" measuredH="170" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Visualiza%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="222" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="3166" y="500" w="-1" h="-1" measuredW="78" measuredH="83" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5B%5DTodos%0A%5Bx%5DUsu%E1rio%201%0A%5Bx%5DUsu%E1rio%202%0A%5B%5DUsu%E1rio%203</text>
+      </controlProperties>
+    </control>
+    <control controlID="223" controlTypeID="com.balsamiq.mockups::ComboBox" x="3358" y="415" w="145" h="-1" measuredW="107" measuredH="24" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Por%20Empresa</text>
+      </controlProperties>
+    </control>
+    <control controlID="224" controlTypeID="com.balsamiq.mockups::Arrow" x="2967" y="391" w="382" h="35" measuredW="150" measuredH="100" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>-1</curvature>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+      </controlProperties>
+    </control>
+    <control controlID="225" controlTypeID="com.balsamiq.mockups::Arrow" x="2960" y="432" w="188" h="223" measuredW="150" measuredH="100" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>-1</curvature>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+      </controlProperties>
+    </control>
+    <control controlID="226" controlTypeID="com.balsamiq.mockups::Canvas" x="3134" y="626" w="179" h="169" measuredW="100" measuredH="70" zOrder="40" locked="false" isInGroup="-1"/>
+    <control controlID="227" controlTypeID="com.balsamiq.mockups::FieldSet" x="3152" y="644" w="142" h="133" measuredW="200" measuredH="170" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Edi%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="228" controlTypeID="com.balsamiq.mockups::RadioButtonGroup" x="3167" y="664" w="-1" h="-1" measuredW="78" measuredH="61" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%28%29Usu%E1rio%201%0A%28o%29Usu%E1rio%202%0A%28%29Usu%E1rio%203</text>
+      </controlProperties>
+    </control>
+    <control controlID="229" controlTypeID="com.balsamiq.mockups::Canvas" x="3349" y="584" w="179" h="74" measuredW="100" measuredH="70" zOrder="44" locked="false" isInGroup="-1"/>
+    <control controlID="230" controlTypeID="com.balsamiq.mockups::ComboBox" x="3364" y="604" w="145" h="-1" measuredW="109" measuredH="24" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Por%20Processo</text>
+      </controlProperties>
+    </control>
+    <control controlID="231" controlTypeID="com.balsamiq.mockups::Arrow" x="2960" y="515" w="398" h="112" measuredW="150" measuredH="100" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>-1</curvature>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+      </controlProperties>
+    </control>
+    <control controlID="232" controlTypeID="com.balsamiq.mockups::Arrow" x="2960" y="550" w="179" h="133" measuredW="150" measuredH="100" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>-1</curvature>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+      </controlProperties>
+    </control>
+    <control controlID="233" controlTypeID="com.balsamiq.mockups::Canvas" x="360" y="222" w="932" h="82" measuredW="100" measuredH="70" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="234" controlTypeID="com.balsamiq.mockups::SubTitle" x="375" y="234" w="-1" h="-1" measuredW="99" measuredH="19" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>M%F3dulo%3A%20Geral</text>
+      </controlProperties>
+    </control>
+    <control controlID="235" controlTypeID="com.balsamiq.mockups::HRule" x="375" y="250" w="893" h="-1" measuredW="100" measuredH="10" zOrder="50" locked="false" isInGroup="-1"/>
+    <control controlID="236" controlTypeID="com.balsamiq.mockups::VRule" x="810" y="410" w="-1" h="81" measuredW="10" measuredH="100" zOrder="119" locked="false" isInGroup="-1"/>
+    <control controlID="237" controlTypeID="com.balsamiq.mockups::Label" x="375" y="268" w="-1" h="-1" measuredW="201" measuredH="21" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Usu%E1rio%28s%29%20de%20Visualiza%E7%E3o%3A%20Todos</text>
+      </controlProperties>
+    </control>
+    <control controlID="239" controlTypeID="com.balsamiq.mockups::Label" x="827" y="268" w="-1" h="-1" measuredW="169" measuredH="21" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Usu%E1rio%20de%20Edi%E7%E3o%3A%20Usu%E1rio%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="240" controlTypeID="com.balsamiq.mockups::Icon" x="584" y="270" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="241" controlTypeID="com.balsamiq.mockups::Icon" x="1003" y="270" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="54" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="242" controlTypeID="com.balsamiq.mockups::Canvas" x="14" y="56" w="262" h="253" measuredW="100" measuredH="70" zOrder="55" locked="false" isInGroup="-1"/>
+    <control controlID="243" controlTypeID="com.balsamiq.mockups::SubTitle" x="29" y="70" w="-1" h="-1" measuredW="65" measuredH="19" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Usu%E1rios</text>
+      </controlProperties>
+    </control>
+    <control controlID="244" controlTypeID="com.balsamiq.mockups::HRule" x="29" y="86" w="221" h="-1" measuredW="100" measuredH="10" zOrder="57" locked="false" isInGroup="-1"/>
+    <control controlID="245" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="39" y="112" w="-1" h="-1" measuredW="78" measuredH="83" zOrder="58" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5Bx%5D%20Todos%0A%5B%20%5D%20Usu%E1rio%201%0A%5B%20%5D%20Usu%E1rio%202%0A%5B%20%5D%20Usu%E1rio%203</text>
+      </controlProperties>
+    </control>
+    <control controlID="246" controlTypeID="com.balsamiq.mockups::StickyNote" x="45" y="230" w="124" h="116" measuredW="109" measuredH="123" zOrder="59" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Quando%20marca%20todos%2C%20n%E3o%20associa%20a%20nenhum%20usu%E1rio</text>
+      </controlProperties>
+    </control>
+    <control controlID="247" controlTypeID="com.balsamiq.mockups::Arrow" x="265" y="164" w="326" h="109" measuredW="150" measuredH="100" zOrder="60" locked="false" isInGroup="-1">
+      <controlProperties>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+    <control controlID="248" controlTypeID="com.balsamiq.mockups::Canvas" x="1417" y="75" w="262" h="253" measuredW="100" measuredH="70" zOrder="61" locked="false" isInGroup="-1"/>
+    <control controlID="249" controlTypeID="com.balsamiq.mockups::SubTitle" x="1432" y="89" w="-1" h="-1" measuredW="65" measuredH="19" zOrder="62" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Usu%E1rios</text>
+      </controlProperties>
+    </control>
+    <control controlID="250" controlTypeID="com.balsamiq.mockups::HRule" x="1432" y="105" w="221" h="-1" measuredW="100" measuredH="10" zOrder="63" locked="false" isInGroup="-1"/>
+    <control controlID="253" controlTypeID="com.balsamiq.mockups::RadioButtonGroup" x="1440" y="130" w="-1" h="-1" measuredW="78" measuredH="61" zOrder="64" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%28o%29%20Usu%E1rio%201%0A%28%29%20Usu%E1rio%202%0A%28%29%20Usu%E1rio%203</text>
+      </controlProperties>
+    </control>
+    <control controlID="254" controlTypeID="com.balsamiq.mockups::Arrow" x="1019" y="165" w="398" h="110" measuredW="150" measuredH="100" zOrder="65" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>bottom</direction>
+        <leftArrow>false</leftArrow>
+        <rightArrow>true</rightArrow>
+      </controlProperties>
+    </control>
+    <control controlID="255" controlTypeID="com.balsamiq.mockups::Canvas" x="361" y="309" w="932" h="197" measuredW="100" measuredH="70" zOrder="66" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="256" controlTypeID="com.balsamiq.mockups::SubTitle" x="376" y="317" w="-1" h="-1" measuredW="105" measuredH="19" zOrder="67" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>M%F3dulo%3A%20DNPM</text>
+      </controlProperties>
+    </control>
+    <control controlID="257" controlTypeID="com.balsamiq.mockups::HRule" x="376" y="333" w="893" h="-1" measuredW="100" measuredH="10" zOrder="68" locked="false" isInGroup="-1"/>
+    <control controlID="263" controlTypeID="com.balsamiq.mockups::Label" x="376" y="337" w="-1" h="-1" measuredW="79" measuredH="21" zOrder="69" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Configura%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="264" controlTypeID="com.balsamiq.mockups::ComboBox" x="376" y="355" w="863" h="-1" measuredW="107" measuredH="24" zOrder="70" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Por%20Empresa</text>
+      </controlProperties>
+    </control>
+    <control controlID="267" controlTypeID="com.balsamiq.mockups::DataGrid" x="835" y="411" w="404" h="80" measuredW="292" measuredH="81" zOrder="71" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Empresa%2C%20Usu%E1rio%20/%20Consultor%2C%20Alterar%0ALogus%20Sistemas%2C%20Usu%E1rio%201%0AAmbientalis%2C%20Usu%E1rio%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="268" controlTypeID="com.balsamiq.mockups::Icon" x="1184" y="435" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="72" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="269" controlTypeID="com.balsamiq.mockups::Icon" x="1184" y="464" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="73" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="283" controlTypeID="com.balsamiq.mockups::Canvas" x="360" y="521" w="932" h="370" measuredW="100" measuredH="70" zOrder="74" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="284" controlTypeID="com.balsamiq.mockups::SubTitle" x="375" y="533" w="-1" h="-1" measuredW="168" measuredH="19" zOrder="75" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>M%F3dulo%3A%20Meio%20Ambiente</text>
+      </controlProperties>
+    </control>
+    <control controlID="285" controlTypeID="com.balsamiq.mockups::HRule" x="375" y="549" w="893" h="-1" measuredW="100" measuredH="10" zOrder="76" locked="false" isInGroup="-1"/>
+    <control controlID="289" controlTypeID="com.balsamiq.mockups::Label" x="375" y="559" w="-1" h="-1" measuredW="79" measuredH="21" zOrder="77" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Configura%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="290" controlTypeID="com.balsamiq.mockups::ComboBox" x="375" y="577" w="902" h="-1" measuredW="109" measuredH="24" zOrder="78" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Por%20Processo</text>
+      </controlProperties>
+    </control>
+    <control controlID="296" controlTypeID="com.balsamiq.mockups::DataGrid" x="377" y="636" w="426" h="236" measuredW="480" measuredH="233" zOrder="79" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Empresa%2C%20Processo%2C%20Usu%E1rios%20/%20Consultores%2C%20Alterar%0ALogus%20Sistemas%2C%20123455%2C%20Usu%E1rio%201%5CrUsu%E1rio%202%0ALogus%20Sistemas%2C%20%2098729837%20%2C%20Usu%E1rio%201%0ALogus%20Sistemas%2C%20Cadastro%20T%E9cnico%20Federal%2C%20Usu%E1rio%201%0ALogus%20Sistemas%2C%20Outros%2C%20Todos%2C%0AAmbientalis%2C%20239847%2C%20Todos%0AAmbientalis%2C%20Cadastro%20T%E9cnico%20Federal%2C%20Todos%0AAmbientalis%2C%20Outros%2C%20Todos%2C</text>
+      </controlProperties>
+    </control>
+    <control controlID="297" controlTypeID="com.balsamiq.mockups::Icon" x="770" y="661" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="80" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="298" controlTypeID="com.balsamiq.mockups::Icon" x="770" y="690" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="81" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="299" controlTypeID="com.balsamiq.mockups::Icon" x="770" y="721" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="82" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="300" controlTypeID="com.balsamiq.mockups::DataGrid" x="827" y="636" w="450" h="229" measuredW="459" measuredH="231" zOrder="83" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Empresa%2C%20Processo%2C%20Usu%E1rio%20/%20Consultor%2C%20Alterar%0ALogus%20Sistemas%2C%20123455%2C%20Usu%E1rio%202%0ALogus%20Sistemas%2C%20%2098729837%20%2C%20Usu%E1rio%201%0ALogus%20Sistemas%2C%20Cadastro%20T%E9cnico%20Federal%2C%20Usu%E1rio%201%0ALogus%20Sistemas%2C%20Outros%2C%20Usu%E1rio%201%2C%0AAmbientalis%2C%20239847%2C%20Usu%E1rio%201%0AAmbientalis%2C%20Cadastro%20T%E9cnico%20Federal%2C%20Usu%E1rio%201%0AAmbientalis%2C%20Outros%2C%20Usu%E1rio%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="301" controlTypeID="com.balsamiq.mockups::Icon" x="1239" y="659" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="84" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="302" controlTypeID="com.balsamiq.mockups::Icon" x="1239" y="688" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="85" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="303" controlTypeID="com.balsamiq.mockups::Icon" x="1239" y="719" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="86" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="304" controlTypeID="com.balsamiq.mockups::Icon" x="770" y="750" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="87" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="305" controlTypeID="com.balsamiq.mockups::Icon" x="770" y="779" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="88" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="306" controlTypeID="com.balsamiq.mockups::Icon" x="770" y="810" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="89" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="307" controlTypeID="com.balsamiq.mockups::Icon" x="770" y="842" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="90" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="308" controlTypeID="com.balsamiq.mockups::Icon" x="1239" y="749" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="91" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="309" controlTypeID="com.balsamiq.mockups::Icon" x="1239" y="778" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="92" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="310" controlTypeID="com.balsamiq.mockups::Icon" x="1239" y="809" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="93" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="311" controlTypeID="com.balsamiq.mockups::Icon" x="1239" y="842" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="94" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="312" controlTypeID="com.balsamiq.mockups::Canvas" x="365" y="897" w="932" h="263" measuredW="100" measuredH="70" zOrder="95" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="313" controlTypeID="com.balsamiq.mockups::SubTitle" x="375" y="909" w="-1" h="-1" measuredW="131" measuredH="19" zOrder="96" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>M%F3dulo%3A%20Contratos</text>
+      </controlProperties>
+    </control>
+    <control controlID="314" controlTypeID="com.balsamiq.mockups::HRule" x="375" y="925" w="893" h="-1" measuredW="100" measuredH="10" zOrder="97" locked="false" isInGroup="-1"/>
+    <control controlID="316" controlTypeID="com.balsamiq.mockups::Label" x="375" y="935" w="-1" h="-1" measuredW="79" measuredH="21" zOrder="98" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Configura%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="317" controlTypeID="com.balsamiq.mockups::ComboBox" x="375" y="953" w="880" h="-1" measuredW="87" measuredH="24" zOrder="99" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Por%20Setor</text>
+      </controlProperties>
+    </control>
+    <control controlID="320" controlTypeID="com.balsamiq.mockups::DataGrid" x="377" y="1002" w="426" h="145" measuredW="387" measuredH="143" zOrder="100" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Empresa%2CSetor%2C%20Usu%E1rios%20/%20Consultores%2C%20Alterar%0ALogus%20Sistemas%2C%20Comercial%2C%20Usu%E1rio%201%5CrUsu%E1rio%202%0ALogus%20Sistemas%2C%20%20Finaceiro%20%2C%20Usu%E1rio%201%0AAmbientalis%2C%20Comercial%2C%20Todos%0AAmbientalis%2C%20Financeiro%2C%20Todos</text>
+      </controlProperties>
+    </control>
+    <control controlID="321" controlTypeID="com.balsamiq.mockups::Icon" x="770" y="1027" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="101" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="322" controlTypeID="com.balsamiq.mockups::Icon" x="770" y="1056" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="102" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="323" controlTypeID="com.balsamiq.mockups::Icon" x="770" y="1087" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="103" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="328" controlTypeID="com.balsamiq.mockups::Icon" x="770" y="1116" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="104" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="338" controlTypeID="com.balsamiq.mockups::Canvas" x="368" y="1170" w="932" h="186" measuredW="100" measuredH="70" zOrder="105" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="339" controlTypeID="com.balsamiq.mockups::SubTitle" x="378" y="1182" w="-1" h="-1" measuredW="123" measuredH="19" zOrder="106" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>M%F3dulo%3A%20Diversos</text>
+      </controlProperties>
+    </control>
+    <control controlID="340" controlTypeID="com.balsamiq.mockups::HRule" x="378" y="1198" w="893" h="-1" measuredW="100" measuredH="10" zOrder="107" locked="false" isInGroup="-1"/>
+    <control controlID="341" controlTypeID="com.balsamiq.mockups::VRule" x="810" y="1008" w="-1" h="137" measuredW="10" measuredH="100" zOrder="108" locked="false" isInGroup="-1"/>
+    <control controlID="342" controlTypeID="com.balsamiq.mockups::Label" x="378" y="1208" w="-1" h="-1" measuredW="177" measuredH="21" zOrder="109" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Configura%E7%E3o%20de%20Visualiza%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="343" controlTypeID="com.balsamiq.mockups::ComboBox" x="378" y="1226" w="891" h="-1" measuredW="107" measuredH="24" zOrder="110" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Por%20Empresa</text>
+      </controlProperties>
+    </control>
+    <control controlID="353" controlTypeID="com.balsamiq.mockups::DataGrid" x="376" y="1261" w="404" h="80" measuredW="313" measuredH="81" zOrder="111" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Empresa%2C%20Usu%E1rios%20/%20Consultores%2C%20Alterar%0ALogus%20Sistemas%2C%20Usu%E1rio%201%0AAmbientalis%2C%20Usu%E1rio%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="354" controlTypeID="com.balsamiq.mockups::Icon" x="725" y="1285" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="112" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="355" controlTypeID="com.balsamiq.mockups::Icon" x="725" y="1314" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="113" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="356" controlTypeID="com.balsamiq.mockups::StickyNote" x="1609" y="159" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="114" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Aberto%20para%20configura%E7%E3o%20de%20usu%E1rio%20de%20edi%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="357" controlTypeID="com.balsamiq.mockups::StickyNote" x="198" y="194" w="118" h="123" measuredW="109" measuredH="123" zOrder="115" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Aberto%20para%20configura%E7%E3o%20de%20usu%E1rios%20de%20visualiza%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="358" controlTypeID="com.balsamiq.mockups::StickyNote" x="0" y="545" w="261" h="264" measuredW="109" measuredH="123" zOrder="116" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1-%20No%20m%F3dulo%20geral%2C%20n%E3o%20tem%20tipo%20de%20configura%E7%E3o%0A2-%20No%20m%F3dulo%20DNPM%20temos%20as%20configura%E7%F5es%3A%20Geral%2C%20Por%20Empresa%20e%20Por%20Processo%0A3-%20No%20m%F3dulo%20Meio%20Ambiente%20temos%20as%20configura%E7%F5es%3A%20Geral%2C%20Por%20Empresa%20e%20Por%20Processo%0A4-%20No%20m%F3dulo%20Contratos%20temos%20as%20configura%E7%F5es%3A%20Geral%2C%20Por%20Empresa%20e%20Por%20Setor%0A5-%20No%20m%F3dulo%20Diversos%20temos%20as%20configura%E7%F5es%3A%20Geral%20e%20Por%20Empresa</text>
+      </controlProperties>
+    </control>
+    <control controlID="359" controlTypeID="com.balsamiq.mockups::StickyNote" x="214" y="352" w="146" h="134" measuredW="109" measuredH="123" zOrder="117" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Exibir%20apenas%20os%20m%F3dulos%20que%20o%20grupo%20econ%F4mico%20tem%20permiss%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="360" controlTypeID="com.balsamiq.mockups::StickyNote" x="1357" y="343" w="777" h="1752" measuredW="109" measuredH="123" zOrder="118" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ao%20salvar%3A%0A%20%0AI%29%20M%D3DULO%20GERAL%0A%20%20%20-%20Criar%20ou%20atualizar%20%28se%20j%E1%20existir%29%20o%20objeto%20ConfiguracaoPermissaoModulo%20associado%20ao%20ModuloPermissao%20%22Geral%22%20com%20o%20tipo%20%3D%20G%20%28Geral%29.%0A%20%20%20-%20Neste%20mesmo%20objeto%2C%20atualizar%20o%20usu%E1rioEdi%E7%E3oModuloGeral%20para%20o%20usu%E1rio%20selecionado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacaoModuloGeral%20com%20os%20usu%E1rio%20selecionados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%0AII%29%20M%D3DULO%20DNPM%0A%20%20%20-%20Criar%20ou%20atualizar%20%28se%20j%E1%20existir%29%20o%20objeto%20ConfiguracaoPermissaoModulo%20associado%20ao%20ModuloPermissao%20%22DNPM%22.%20Criar%20conforme%20o%20tipo%20escolhido%3A%0A%20%20a%29%20tipo%20%3D%20G%20%28Geral%29.%0A%20%20%20-%20Neste%20mesmo%20objeto%2C%20atualizar%20o%20usu%E1rioEdi%E7%E3oModuloDNPMGeral%20para%20o%20usu%E1rio%20selecionado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacaoModuloDNPMGeral%20com%20os%20usu%E1rio%20selecionados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%20%20%20b%29%20tipo%3D%20E%20%28Por%20Empresa%29%0A%20%20%20-%20Criar%20ou%20atualizar%28se%20j%E1%20existir%29%2C%20associado%20a%20cada%20empresa%2C%20o%20objeto%20EmpresaModuloPermissao%20com%20o%20usuarioEdicao%20seleciononado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacao%20dos%20objetoss%20EmpresaModuloPermissao%20com%20os%20usu%E1rio%20selecionados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado%20para%20cada%20empresa.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%20%20%20c%29%20tipo%3D%20P%20%28Por%20Processo%29%0A%20%20%20-%20atualizar%20cada%20ProcessoDNPM%20mudando%20o%20usuarioEdicao%20para%20o%20usu%E1rio%20selecionado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacao%20de%20cada%20processoDNPM%20com%20os%20usu%E1rio%20selecionados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado%20pra%20cada%20processo.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%0AObs.%20De%20acordo%20com%20o%20tipo%20selecionado%2C%20lembrar%20de%20limpar%20o%20usuarioEdicao%20e%20a%20lista%20de%20usuariosVisualizacao%20dos%20outros%20objetos%20dos%20outros%20tipos.%0A%20%0AIII%29%20M%D3DULO%20MEIO%20AMBIENTE%0A%20%20%20-%20Criar%20ou%20atualizar%20%28se%20j%E1%20existir%29%20o%20objeto%20ConfiguracaoPermissaoModulo%20associado%20ao%20ModuloPermissao%20%22Meio%20Ambiente%22.%20Criar%20conforme%20o%20tipo%20escolhido%3A%0A%20%20a%29%20tipo%20%3D%20G%20%28Geral%29.%0A%20%20%20-%20Neste%20mesmo%20objeto%2C%20atualizar%20o%20usu%E1rioEdi%E7%E3oModuloMAGeral%20para%20o%20usu%E1rio%20selecionado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacaoModuloMAGeral%20com%20os%20usu%E1rio%20selecionados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%20%20%20b%29%20tipo%3D%20E%20%28Por%20Empresa%29%0A%20%20%20-%20Criar%20ou%20atualizar%28se%20j%E1%20existir%29%2C%20associado%20a%20cada%20empresa%2C%20o%20objeto%20EmpresaModuloPermissao%20com%20o%20usuarioEdicao%20seleciononado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacao%20dos%20objetoss%20EmpresaModuloPermissao%20com%20os%20usu%E1rio%20selecionados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado%20para%20cada%20empresa.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%20%20%20c%29%20tipo%3D%20P%20%28Por%20Processo%29%0A%20%20%20-%20atualizar%20cada%20Processo%20mudando%20o%20usuarioEdicao%20para%20o%20usu%E1rio%20selecionado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacao%20de%20cada%20processo%20com%20os%20usu%E1rio%20selecionados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado%20pra%20cada%20processo.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%20%20-%20atualizar%20cada%20Cadastro%20T%E9cnico%20Federal%20mudando%20o%20usuarioEdicao%20para%20o%20usu%E1rio%20selecionado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacao%20de%20cada%20CTF%20com%20os%20usu%E1rio%20selecionados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado%20pra%20cada%20processo.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%20-%20atualizar%20cada%20Outros%20mudando%20o%20usuarioEdicao%20para%20o%20usu%E1rio%20selecionado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacao%20de%20cada%20Outros%20com%20os%20usu%E1rio%20selecionados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado%20pra%20cada%20processo.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%0AObs.%20De%20acordo%20com%20o%20tipo%20selecionado%2C%20lembrar%20de%20limpar%20o%20usuarioEdicao%20e%20a%20lista%20de%20usuariosVisualizacao%20dos%20outros%20objetos%20dos%20outros%20tipos.%0A%20%0AIV%29%20M%D3DULO%20CONTRATOS%0A%20%20%20-%20Criar%20ou%20atualizar%20%28se%20j%E1%20existir%29%20o%20objeto%20ConfiguracaoPermissaoModulo%20associado%20ao%20ModuloPermissao%20%22Contratos%22.%20Criar%20conforme%20o%20tipo%20escolhido%3A%0A%20%20a%29%20tipo%20%3D%20G%20%28Geral%29.%0A%20%20%20-%20Neste%20mesmo%20objeto%2C%20atualizar%20o%20usu%E1rioEdi%E7%E3oModuloContratosGeral%20para%20o%20usu%E1rio%20selecionado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacaoModuloContratosGeral%20com%20os%20usu%E1rio%20selecionados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%20%20%20b%29%20tipo%3D%20E%20%28Por%20Empresa%29%0A%20%20%20-%20Criar%20ou%20atualizar%28se%20j%E1%20existir%29%2C%20associado%20a%20cada%20empresa%2C%20o%20objeto%20EmpresaModuloPermissao%20com%20o%20usuarioEdicao%20seleciononado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacao%20dos%20objetoss%20EmpresaModuloPermissao%20com%20os%20usu%E1rio%20seleciotornados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado%20para%20cada%20empresa.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%20%20%20c%29%20tipo%3D%20S%20%28Por%20Setor%29%0A%20%20%20-%20atualizar%20cada%20Setor%20mudando%20o%20usuarioEdicao%20para%20o%20usu%E1rio%20selecionado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacao%20de%20cada%20Setor%20com%20os%20usu%E1rio%20selecionados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado%20pra%20cada%20processo.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%20%20%20%0AObs.%20De%20acordo%20com%20o%20tipo%20selecionado%2C%20lembrar%20de%20limpar%20o%20usuarioEdicao%20e%20a%20lista%20de%20usuariosVisualizacao%20dos%20outros%20objetos%20dos%20outros%20tipos.%0A%20%0AIV%29%20M%D3DULO%20DIVERSOS%0A%20%20%20-%20Criar%20ou%20atualizar%20%28se%20j%E1%20existir%29%20o%20objeto%20ConfiguracaoPermissaoModulo%20associado%20ao%20ModuloPermissao%20%22Diversos%22.%20Criar%20conforme%20o%20tipo%20escolhido%3A%0A%20%20a%29%20tipo%20%3D%20G%20%28Geral%29.%0A%20%20%20-%20Neste%20mesmo%20objeto%2C%20atualizar%20o%20usu%E1rioEdi%E7%E3oModuloDiversosGeral%20para%20o%20usu%E1rio%20selecionado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacaoModuloDiversosGeral%20com%20os%20usu%E1rio%20selecionados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%20%20%20b%29%20tipo%3D%20E%20%28Por%20Empresa%29%0A%20%20%20-%20Criar%20ou%20atualizar%28se%20j%E1%20existir%29%2C%20associado%20a%20cada%20empresa%2C%20o%20objeto%20EmpresaModuloPermissao%20com%20o%20usuarioEdicao%20seleciononado.%0A%20%20%20-%20Se%20algum%20usu%E1rio%20de%20visualiza%E7%E3o%20for%20selecionado%20%28n%E3o%20foi%20escolhido%20o%20Todos%29%2C%20atualizar%20a%20lista%20usuariosVisualizacao%20dos%20objetoss%20EmpresaModuloPermissao%20com%20os%20usu%E1rio%20seleciotornados%20e%20adicionar%2C%20caso%20ainda%20n%E3o%20esteja%2C%20o%20usu%E1rioEdicao%20selecionado%20para%20cada%20empresa.%20Obs.%20se%20for%20escolhido%20o%20todos%2C%20a%20lista%20deve%20ficar%20vazia.%0A%20%20%20%20%20%20%20%20%0AObs.%20De%20acordo%20com%20o%20tipo%20selecionado%2C%20lembrar%20de%20limpar%20o%20usuarioEdicao%20e%20a%20lista%20de%20usuariosVisualizacao%20dos%20outros%20objetos%20dos%20outros%20tipos.%0A%20%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="361" controlTypeID="com.balsamiq.mockups::DataGrid" x="388" y="411" w="404" h="80" measuredW="292" measuredH="81" zOrder="120" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Empresa%2C%20Usu%E1rio%20/%20Consultor%2C%20Alterar%0ALogus%20Sistemas%2C%20Usu%E1rio%201%0AAmbientalis%2C%20Usu%E1rio%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="362" controlTypeID="com.balsamiq.mockups::Icon" x="737" y="435" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="121" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="363" controlTypeID="com.balsamiq.mockups::Icon" x="737" y="464" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="122" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="364" controlTypeID="com.balsamiq.mockups::Label" x="388" y="389" w="-1" h="-1" measuredW="75" measuredH="21" zOrder="123" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Visualiza%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="365" controlTypeID="com.balsamiq.mockups::Label" x="835" y="391" w="-1" h="-1" measuredW="40" measuredH="21" zOrder="124" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Edi%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="366" controlTypeID="com.balsamiq.mockups::Label" x="383" y="610" w="-1" h="-1" measuredW="75" measuredH="21" zOrder="125" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Visualiza%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="367" controlTypeID="com.balsamiq.mockups::Label" x="830" y="612" w="-1" h="-1" measuredW="40" measuredH="21" zOrder="126" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Edi%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="368" controlTypeID="com.balsamiq.mockups::VRule" x="810" y="620" w="-1" h="245" measuredW="10" measuredH="100" zOrder="127" locked="false" isInGroup="-1"/>
+    <control controlID="369" controlTypeID="com.balsamiq.mockups::DataGrid" x="827" y="1002" w="426" h="145" measuredW="366" measuredH="141" zOrder="128" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Empresa%2CSetor%2C%20Usu%E1rio%20/%20Consultor%2C%20Alterar%0ALogus%20Sistemas%2C%20Comercial%2C%20Usu%E1rio%201%0ALogus%20Sistemas%2C%20%20Finaceiro%20%2C%20Usu%E1rio%201%0AAmbientalis%2C%20Comercial%2C%20Todos%0AAmbientalis%2C%20Financeiro%2C%20Todos</text>
+      </controlProperties>
+    </control>
+    <control controlID="370" controlTypeID="com.balsamiq.mockups::Icon" x="1220" y="1027" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="129" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="371" controlTypeID="com.balsamiq.mockups::Icon" x="1220" y="1056" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="130" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="372" controlTypeID="com.balsamiq.mockups::Icon" x="1220" y="1087" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="131" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="373" controlTypeID="com.balsamiq.mockups::Icon" x="1220" y="1116" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="132" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="374" controlTypeID="com.balsamiq.mockups::Label" x="378" y="983" w="-1" h="-1" measuredW="75" measuredH="21" zOrder="133" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Visualiza%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="375" controlTypeID="com.balsamiq.mockups::Label" x="825" y="985" w="-1" h="-1" measuredW="40" measuredH="21" zOrder="134" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Edi%E7%E3o</text>
+      </controlProperties>
+    </control>
+    <control controlID="376" controlTypeID="com.balsamiq.mockups::VRule" x="803" y="1261" w="-1" h="84" measuredW="10" measuredH="100" zOrder="135" locked="false" isInGroup="-1"/>
+    <control controlID="377" controlTypeID="com.balsamiq.mockups::DataGrid" x="835" y="1261" w="404" h="80" measuredW="292" measuredH="81" zOrder="136" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Empresa%2C%20Usu%E1rio%20/%20Consultor%2C%20Alterar%0ALogus%20Sistemas%2C%20Usu%E1rio%201%0AAmbientalis%2C%20Usu%E1rio%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="378" controlTypeID="com.balsamiq.mockups::Icon" x="1184" y="1285" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="137" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="379" controlTypeID="com.balsamiq.mockups::Icon" x="1184" y="1314" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="138" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="380" controlTypeID="com.balsamiq.mockups::StickyNote" x="820" y="1453" w="427" h="343" measuredW="109" measuredH="123" zOrder="139" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sempre%20ao%20salvar%2C%20mandar%20para%20todos%20os%20usu%E1rios%2C%20em%20seu%20e-mail%20de%20seguran%E7a%20e%20no%20e-mail%20de%20seu%20cadastro%2C%20a%20listagem%20de%20todas%20as%20suas%20permiss%F5es.%20%0A%20%0AEx.%20%0A%20%0AGeral%20-%20Visualiza%E7%E3o%20e%20Edi%E7%E3o%0ADNPM%20%28Por%20Empresa%29%0A%20-%20Empresa%20X%20-%20Visualiza%E7%E3o%0A%20-%20Empresa%20Y%20-%20Edi%E7%E3o%20e%20Visualiza%E7%E3o%0A%20%0AMA%20%28Por%20Processo%29%0A....%0A%20%0AObs.%20Mostrar%20apenas%20empresas%20e/ou%20processo%20que%20ele%20tenha%20alguma%20permiss%E3o</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

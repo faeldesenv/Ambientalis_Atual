@@ -1,0 +1,213 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="2181" measuredH="1247" mockupW="2101" mockupH="1217">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="80" y="30" w="1262" h="697" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Alert" x="102" y="114" w="1218" h="59" measuredW="200" measuredH="15" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Accordion" x="357" y="123" w="172" h="98" measuredW="150" measuredH="132" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>1</selectedIndex>
+        <text>Grupo%20Econ%F4mico%0AGrupos%20de%20Teste</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Label" x="1617" y="647" w="-1" h="-1" measuredW="43" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <italic>false</italic>
+        <text>Nome*%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::Button" x="2065" y="1012" w="-1" h="-1" measuredW="60" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Salvar</text>
+      </controlProperties>
+    </control>
+    <control controlID="99" controlTypeID="com.balsamiq.mockups::Canvas" x="95" y="188" w="1216" h="39" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+      </controlProperties>
+    </control>
+    <control controlID="100" controlTypeID="com.balsamiq.mockups::Label" x="109" y="192" w="240" h="-1" measuredW="122" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>16</size>
+        <text>Grupos%20de%20Teste</text>
+      </controlProperties>
+    </control>
+    <control controlID="101" controlTypeID="com.balsamiq.mockups::DataGrid" x="138" y="266" w="1143" h="282" measuredW="911" measuredH="100" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nome%2C%20E-mail%2C%20Nome%20do%20Contato%2C%20Telefone%2C%20M%F3dulos%2C%20Abertura%20do%20Teste%2C%20Encerramento%20do%20Teste%2C%20Login%2C%20A%E7%F5es%0AGuia%E7o%2C%20guiaco@guiaco.com.br%2C%20Murilo%2C%20%2828%29%2035466000%2C%20DNPM%5CrMeio%20Ambiente%5CrDNPM%20%5CrContratos%5CrDiversos%2C%2010/08/2013%2C%2020/08/2013%2C%20murilo123</text>
+      </controlProperties>
+    </control>
+    <control controlID="102" controlTypeID="com.balsamiq.mockups::Icon" x="1221" y="300" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::Icon" x="1245" y="300" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>XIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::Button" x="138" y="235" w="-1" h="-1" measuredW="166" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PlusIcon%7Cxsmall</icon>
+        <text>Novo%20Grupo%20de%20Teste</text>
+      </controlProperties>
+    </control>
+    <control controlID="105" controlTypeID="com.balsamiq.mockups::Canvas" x="1508" y="536" w="673" h="531" measuredW="100" measuredH="70" zOrder="9" locked="true" isInGroup="-1"/>
+    <control controlID="106" controlTypeID="com.balsamiq.mockups::Canvas" x="1539" y="563" w="619" h="39" measuredW="100" measuredH="70" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="107" controlTypeID="com.balsamiq.mockups::Label" x="1553" y="567" w="240" h="-1" measuredW="128" measuredH="26" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <size>18</size>
+        <text>Grupo%20de%20Teste</text>
+      </controlProperties>
+    </control>
+    <control controlID="108" controlTypeID="com.balsamiq.mockups::TextInput" x="1667" y="644" w="449" h="-1" measuredW="79" measuredH="26" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="109" controlTypeID="com.balsamiq.mockups::Label" x="1614" y="680" w="-1" h="-1" measuredW="46" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <italic>false</italic>
+        <text>E-mail*%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::TextInput" x="1667" y="678" w="449" h="-1" measuredW="79" measuredH="26" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="111" controlTypeID="com.balsamiq.mockups::Label" x="1554" y="713" w="-1" h="-1" measuredW="106" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <italic>false</italic>
+        <text>Nome%20de%20Contato%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::TextInput" x="1667" y="711" w="449" h="-1" measuredW="79" measuredH="26" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::Label" x="1607" y="746" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <italic>false</italic>
+        <text>Telefone%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::Label" x="1564" y="778" w="-1" h="-1" measuredW="96" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <italic>false</italic>
+        <text>In%EDcio%20do%20Teste*%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::Label" x="1575" y="811" w="-1" h="-1" measuredW="85" measuredH="21" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <italic>false</italic>
+        <text>Fim%20do%20Teste*%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::Label" x="1602" y="844" w="-1" h="-1" measuredW="58" measuredH="21" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <italic>false</italic>
+        <text>M%F3dulos*%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="117" controlTypeID="com.balsamiq.mockups::TextInput" x="1667" y="745" w="449" h="-1" measuredW="79" measuredH="26" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::DateChooser" x="1667" y="778" w="-1" h="-1" measuredW="90" measuredH="25" zOrder="24" locked="false" isInGroup="-1"/>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::DateChooser" x="1667" y="811" w="-1" h="-1" measuredW="90" measuredH="25" zOrder="25" locked="false" isInGroup="-1"/>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::CheckBox" x="1667" y="843" w="-1" h="-1" measuredW="108" measuredH="22" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Meio%20Ambiente</text>
+      </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::CheckBox" x="1820" y="843" w="-1" h="-1" measuredW="57" measuredH="22" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DNPM</text>
+      </controlProperties>
+    </control>
+    <control controlID="122" controlTypeID="com.balsamiq.mockups::CheckBox" x="1922" y="843" w="-1" h="-1" measuredW="78" measuredH="22" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Contratos</text>
+      </controlProperties>
+    </control>
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::CheckBox" x="2045" y="843" w="-1" h="-1" measuredW="71" measuredH="22" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Diversos</text>
+      </controlProperties>
+    </control>
+    <control controlID="124" controlTypeID="com.balsamiq.mockups::Arrow" x="297" y="251" w="1226" h="429" measuredW="150" measuredH="100" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+      </controlProperties>
+    </control>
+    <control controlID="125" controlTypeID="com.balsamiq.mockups::Arrow" x="1237" y="310" w="286" h="238" measuredW="150" measuredH="100" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+      </controlProperties>
+    </control>
+    <control controlID="126" controlTypeID="com.balsamiq.mockups::FieldSet" x="1553" y="869" w="563" h="120" measuredW="200" measuredH="170" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Usu%E1rio</text>
+      </controlProperties>
+    </control>
+    <control controlID="127" controlTypeID="com.balsamiq.mockups::Label" x="1578" y="902" w="-1" h="-1" measuredW="40" measuredH="21" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <italic>false</italic>
+        <text>Login*%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::TextInput" x="1628" y="899" w="449" h="-1" measuredW="79" measuredH="26" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="129" controlTypeID="com.balsamiq.mockups::Label" x="1575" y="935" w="-1" h="-1" measuredW="46" measuredH="21" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <italic>false</italic>
+        <text>Senha*%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="130" controlTypeID="com.balsamiq.mockups::TextInput" x="1628" y="933" w="449" h="-1" measuredW="79" measuredH="26" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="131" controlTypeID="com.balsamiq.mockups::StickyNote" x="804" y="788" w="654" h="459" measuredW="109" measuredH="123" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1-%20Ao%20salvar%20um%20novo%20grupo%20de%20teste%0A%201.1.%20-%20Criar%20um%20grupo%20econ%F4mico%20com%20o%20Nome%20%28na%20classe%20Pessoa%29%20preenchido%3B%20O%20E-mail%20Preenchido%20salvar%20no%20email%20do%20contato%3B%20o%20Nome%20de%20contato%20salvar%20no%20respons%E1vel%20da%20Pessoa%3B%20o%20Telefone%20preenchido%20no%20Contato%20da%20Pessoa%3B%20O%20in%EDcio%20do%20Teste%20preenchido%20no%20Grupo%20Econ%F4mico%3B%20o%20Fim%20do%20teste%20Preenchido%20no%20Grupo%20Econ%F4mico%3B%20Associar%20os%20m%F3dulos%20permiss%F5es%20selecionados%20ao%20grupo%20econ%F4mico%3B%20Colocar%20o%20grupo%20econ%F4mico%20como%20Teste%20%28booleano%20na%20classe%20Grupo%20Econ%F4mico%29%3B%20Criar%20um%20usu%E1rio%20administrador%20com%20o%20Login%20informado%2C%20o%20nome%20o%20mesmo%20do%20login%20e%20a%20senha%20informada%3B%20O%20grupo%20econ%F4mico%20j%E1%20%E9%20criato%20ativado%20pela%20logus%20e%20pela%20ambientalis.%0A%20%0A1.2.%20-%20Enviar%20um%20e-mail%20com%20remetente%20teste@sustentar.inf.br%20para%20o%20email%20informado%20com%20o%20seguinte%20texto%3A%0A%20%20%22Prezado%20%20XXXX%20%28Nome%20informado%29%2C%0A%20%20%20%20%20Voc%EA%20foi%20cadastrado%20para%20acessar%20o%28s%29%20m%F3dulos%20xxxxxxx%20do%20sistema%20Sustentar%20por%20um%20per%EDodo%20de%20testes%20que%20vai%20de%20xx/xx/xxxx%20%E0%20xx/xx/xxxx.%20%0A%20%20%20%20%20Para%20logar%20no%20sistema%20acesse%20www.sustentar.inf.br%20e%20utilize%20o%20login%20xxxx%20e%20a%20senha%20xxxxx.%20%20%20%20%20%0A%20%20%20%20%20Qualquer%20d%FAvida%2C%20entre%20em%20contato%20com%20nosso%20suporte%20em%20www.sustentar.inf.br%0A%20%20%20%20%20Ass.%20Equipe%20Sustentar.%22%0A%20%0A1.3-%20Enviar%20um%20e-mail%20para%20rogerio@sustentar.inf.br%2C%20anderson@sustentar.inf.br%20e%20piassi@sustentar.inf.br%20informando%3A%0A%20%20%20%22%20O%20Grupo%20xxxxx%20foi%20cadastrado%20no%20sistema%20como%20um%20grupo%20de%20teste%20do%20per%EDodo%20de%20xx/xx/xxxx%20at%E9%20xx/xx/xxxx%22%0A%20%0A2-%20Ao%20editar%20um%20Grupo%20de%20Teste%2C%20N%E3o%20%E9%20necess%E1rio%20informar%20uma%20nova%20senha.%20Se%20uma%20das%20datas%20e/ou%20login%20e/ou%20senha%20e/ou%20e-mail%20forem%20alteradas%2C%20reenviar%20o%20e-mail%20para%20o%20usu%E1rio.</text>
+      </controlProperties>
+    </control>
+    <control controlID="132" controlTypeID="com.balsamiq.mockups::StickyNote" x="387" y="479" w="230" h="129" measuredW="109" measuredH="123" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Listar%20todos%20os%20grupos%20econ%F4micos%20que%20sejam%20de%20teste%20%28booleano%20na%20classe%20GrupoEconomico%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::StickyNote" x="1293" y="203" w="230" h="129" measuredW="109" measuredH="123" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ao%20excluir%20um%20grupo%20de%20teste%2C%20excluir%20todos%20os%20processos%2C%20empresas%2C%20etc%20%28TUDO%29</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

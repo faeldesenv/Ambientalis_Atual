@@ -1,0 +1,56 @@
+﻿.containe_arvore
+{
+    border: 1px solid #eff2f2;
+    padding: 10px;
+    background-color: #f4f8f4;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    position: relative;
+    margin: 6px;
+    height: auto;
+}
+
+.container_arvore
+{
+    float: left;
+    min-height: 400px;
+    background-color: White;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.padding5
+{
+    padding: 5px;
+}
+
+.barra_opcoes_ferramentas
+{
+    background-color: #f1f8f1;
+    margin: 5px;
+    padding: 5px;
+    height: 52px;
+    -moz-box-shadow: 0 3px 3px #eff2f2;
+    -ms-box-shadow: 0 3px 3px #eff2f2;
+    -webkit-box-shadow: 0 3px 3px #eff2f2;
+    box-shadow: 0 3px 3px #eff2f2;
+}
+
+.botao_atualizar_arvoreDNPM
+{
+    float: right;
+}
+
+
+.group_botoes
+{
+    border: 1px solid #c0c3c3;
+    width: 360px;
+    height: 108px;
+    font-size: 7px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin:4px;
+}

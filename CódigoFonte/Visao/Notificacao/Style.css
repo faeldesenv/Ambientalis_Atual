@@ -1,0 +1,37 @@
+﻿.container
+{
+	border: 1px solid #eff2f2;
+	padding: 10px;
+	background-color: #f4f8f4;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin: 6px;
+	min-height: 420px;
+}
+
+.div_container
+{
+	float: left;
+	min-height: 400px;
+	background-color: White;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 100%;
+}
+
+.containerEmail
+{
+	background-color: White;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 100%;
+	overflow: auto;
+	max-height: 320px;
+	
+}
+
+#grid_notificacoes
+{
+    clear:both;
+    margin-top: 3px;
+}

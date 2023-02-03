@@ -1,0 +1,41 @@
+<mockup version="1.0" skin="sketch" measuredW="954" measuredH="438" mockupW="635" mockupH="354">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="309" y="74" w="635" h="354" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1"/>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::DataGrid" x="584" y="180" w="269" h="130" measuredW="238" measuredH="118" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>M%EAs%2C%20Acumulado%2012%20meses%20%28%25%29%0AJan/12%2C%204.5532%0AFev/12%2C%205.2211%0AMar/12%2C%205.5425</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::ComboBox" x="399" y="181" w="69" h="-1" measuredW="64" measuredH="25" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::ComboBox" x="483" y="180" w="69" h="-1" measuredW="64" measuredH="25" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Abril</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextInput" x="510" y="221" w="65" h="-1" measuredW="59" measuredH="29" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>4.2231</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="360" y="222" w="-1" h="-1" measuredW="150" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Acumulado%20no%20M%EAs%20%28%25%29%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="674" y="325" w="-1" h="-1" measuredW="223" measuredH="28" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Adicionar%20e%20Reajustar%20Comiss%F5es</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="390" y="359" w="-1" h="-1" measuredW="499" measuredH="22" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>*%20ser%E3o%20reajustadas%20as%20comiss%F5es%20referentes%20a%20contratos%20que%20t%EAm%20renova%E7%E3o%20no%20pr%F3ximo%20m%EAs</text>
+        <size>11</size>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

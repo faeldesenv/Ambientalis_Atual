@@ -1,0 +1,1009 @@
+﻿*
+{
+    font-family: Arial;
+}
+
+p
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+a
+{
+    color: Green;
+}
+
+a:hover
+{
+    font-weight: bold;
+}
+
+.ZerarClear
+{
+    height: 1px;
+    width: 100%;
+    clear: both;
+}
+
+body
+{
+    background-color: #ededed;
+}
+
+#header
+{
+    width: 98.3%;
+    min-height: 58px;
+    background-repeat: repeat-x;
+    background-position: left top;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10px;
+    z-index: 300;
+    border-radius: 11px; /*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#218637,EndColorStr=#2fb64d);     -ms-filter: “progid:DXImageTransform.Microsoft.gradient(startColorstr=’#218637’, endColorstr=’#2fb64d′)”;     background-image: -moz-linear-gradient(bottom,#218637 0,#2fb64d 100%);     background-image: -ms-linear-gradient(bottom,#218637 0,#2fb64d 100%);     background-image: -o-linear-gradient(bottom,#218637 0,#2fb64d 100%);     background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,#218637),color-stop(100%,#2fb64d));     background-image: -webkit-linear-gradient(bottom,#218637 0,#2fb64d 100%);     background-image: linear-gradient(to top,#218637 0,#2fb64d 100%);*/
+    background-image: url('../imagens/bg_header.png');
+    -moz-box-shadow: 0 2px 2px #797979;
+    -ms-box-shadow: 0 2px 2px #797979;
+    -webkit-box-shadow: 0 2px 2px #797979;
+    box-shadow: 0 2px 2px #797979;
+    background-color: #2EB44C;
+    behavior: url(../Utilitarios/htc/PIE.htc);
+}
+
+#menu
+{
+    padding: 0px;
+    min-height: 40px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    float: left;
+}
+
+#menu li
+{
+    height: 52px;
+    width: 105px;
+    float: left;
+    list-style: none;
+    margin-left: 4px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#menu li:hover
+{
+    background-color: #3ab855;
+}
+
+#menu li ul
+{
+    background-color: #3ab855;
+    height: auto;
+    position: absolute;
+    display: none;
+    top: 52px;
+    width: 105px; /*left: 0px;*/
+    right: 0px;
+    width: auto;
+    height: auto;
+    z-index: 1000;
+    padding: 0px;
+}
+#menu li:hover > ul
+{
+    display: block;
+}
+
+#menu li ul li
+{
+    padding: 0px;
+    width: 105px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    font-size: 9pt;
+    height: auto;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    color: White;
+    position:relative;
+}
+
+#menu li ul li:hover > ul 
+{
+    display:block;
+}
+
+#menu li ul li ul
+{
+    position:absolute;
+    left: 105px;
+    top:0px;
+    width:105px;
+    height:auto;
+    background-color: #27983f;       
+}
+#box_login
+{
+	border-left: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	width: 318px;
+	background: white;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-box-shadow: 0 3px 5px #CACACA;
+	-webkit-box-shadow: 0 3px 5px #CACACA;
+	padding: 10px 10px 0 10px;
+	background: white;
+	height: auto;
+	border-top-style: none;
+	border-top-color: inherit;
+	border-top-width: 0;
+}
+#header_login
+{
+	height: 35px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	line-height: 35px;
+	padding: 0 0 0 10px;
+	margin: 0;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 14px;
+	-moz-box-shadow: 0 0 2px #dddddd;
+	-webkit-box-shadow: 0 0 2px #DDD;
+	color: white;
+	border: 1px solid #61922B;
+	text-shadow: 0 1px 0 #274505;
+	background-image: url('../Acesso/imagens/bg_login.jpg');
+	background-repeat: repeat-x;
+}
+.req
+{
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0 0 2px 0;
+	color: #3D6511;
+	font-family: Tahoma;
+}
+.botao_login
+{
+	background-position: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 4px 8px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: bold;
+	-moz-box-shadow: 0 1px 2px #343434;
+	-webkit-box-shadow: 0 1px 2px #343434;
+	cursor: pointer;
+	color: white !important;
+	border: 1px solid #88C41A;
+	background-image: url('../Acesso/imagens/bg_login.jpg');
+	background-repeat: repeat-x;
+}
+.tbxAcesso
+{
+	height: 24px;
+	font-size: 16px;
+	padding: 5px;
+	width: 100%;
+	color: #767474;
+	border: 1px solid #cccccc;
+	background: #e5e5e5;
+	-moz-border-radius: 5px;
+			   -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.tbxAcesso:focus
+{
+	-moz-box-shadow: 0 2px 2px #d8d8d8;
+	-webkit-box-shadow: 0 2px 2px #d8d8d8;
+}
+#menu li ul li ul li
+{
+    display:block;
+    position:relative;
+    height:auto;
+    width:105px;
+}
+
+#menu li ul li ul li:hover
+{
+    background-color: #145d24;
+    }
+
+#menu li ul li:hover
+{
+    background-color: #27983f;
+    font-style: italic;
+}
+
+.DNPM
+{
+    width: 80px !important;
+}
+
+.GrupoEconômico
+{
+    width: 100px !important;
+}
+.GrupoEconômico > ul
+{
+    width: 100px !important;
+}
+.GrupoEconômico > ul li
+{
+    width: 100px !important;
+}
+.Empresa
+{
+    width: 70px !important;
+}
+.Empresa > ul
+{
+    width: 70px !important;
+}
+.Empresa > ul li
+{
+    width: 70px !important;
+}
+
+.Usuário
+{
+    width: 80px !important;
+}
+
+.Usuário > ul
+{
+    width: 80px !important;
+}
+.Usuário > ul li
+{
+    width: 80px !important;
+}
+
+.Consultora
+{
+    width: 80px !important;
+}
+
+.Consultora > ul
+{
+    width: 80px !important;
+}
+.Consultora > ul li
+{
+    width: 80px !important;
+}
+
+.Permissões
+{
+    width: 85px !important;
+}
+
+.Permissões > ul
+{
+    width: 85px !important;
+}
+.Permissões > ul li
+{
+    width: 85px !important;
+}
+
+.Importação
+{
+    width: 80px !important;
+}
+
+.Importação > ul
+{
+    width: 80px !important;
+}
+.Importação > ul li
+{
+    width: 80px !important;
+}
+
+.Notificação
+{
+    width: 80px !important;
+}
+
+.Notificação > ul
+{
+    width: 80px !important;
+}
+.Notificação > ul li
+{
+    width: 80px !important;
+}
+
+.Relatório
+{
+    width: 80px !important;
+}
+
+.Relatório > ul
+{
+    width: 80px !important;
+}
+.Relatório > ul li
+{
+    width: 80px !important;
+}
+
+.MeioAmbiente
+{
+    width: 90px !important;
+}
+
+.MeioAmbiente > ul
+{
+    width: 90px !important;
+}
+.MeioAmbiente > ul li
+{
+    width: 90px !important;
+}
+
+.OrgãoAmbiental
+{
+    width: 100px !important;
+}
+
+.OrgãoAmbiental > ul
+{
+    width: 100px !important;
+}
+.OrgãoAmbiental > ul li
+{
+    width: 100px !important;
+}
+
+.TipodeLicença
+{
+    width: 100px !important;
+}
+
+.TipodeLicença > ul
+{
+    width: 100px !important;
+}
+.TipodeLicença > ul li
+{
+    width: 100px !important;
+}
+
+.Manual
+{
+    width: 80px !important;
+}
+
+.menu_texto
+{
+    font-family: Arial;
+    color: White;
+    font-size: 9pt;
+    width: 100%;
+    text-align: center;
+}
+
+.Diversos
+{
+    width: 80px !important;
+}
+.Diversos > ul
+{
+    width: 80px !important;
+}
+.Diversos > ul li
+{
+    width: 80px !important;
+}
+
+#logo
+{
+    width: 270px;
+    height: 50px;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.ProgressGrid
+{
+    background-image: url('../imagens/spinning_wheel_throbber.gif');
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    padding-top: 35px;
+    font-family: Arial;
+    font-size: 9pt;
+    font-style: italic;
+    text-align: center;
+    color: Silver;
+}
+
+
+#content
+{
+    width: 97%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 11px;
+    border: 1px solid #e6e7e8;
+    position:relative;
+    background-color: #fff;
+    -moz-box-shadow: 0 3px 3px #dddddd;
+    -ms-box-shadow: 0 3px 3px #dddddd;
+    -webkit-box-shadow: 0 3px 3px #dddddd;
+    box-shadow: 0 3px 3px #dddddd;
+    behavior: url(../Utilitarios/htc/PIE.htc);
+}
+
+/*cph usado apenas para dar margem. */
+#cph
+{
+    height: auto;
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 1px;
+    font-size: 11px;
+}
+
+#barra
+{
+    background-position: left center;
+    height: 27px;
+    background-image: url('../imagens/icone_logo.png');
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 10px;
+}
+
+#barra_texto
+{
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 71px;
+    top: 5px;
+    text-transform: uppercase;
+}
+
+#filtros
+{
+    padding: 5px;
+    height: auto;
+    border: 1px solid #e6e7e8;
+    border-radius: 8px;
+    font-family: Arial;
+}
+
+.opcoes_filtro
+{
+    margin-bottom: 2px;
+    margin-top: 1px;
+}
+
+#content_filtros
+{
+}
+
+#grid
+{
+    margin-top: 10px;
+    height: auto;
+}
+
+#botao_pesquisar
+{
+    float: left;
+    top: 0px;
+    left: 0px;
+}
+
+.ButtonAtualizarProcesso
+{
+    background-position: 5px center;
+    padding: 6px 4px;
+    padding-left:30px !important;
+    cursor:pointer;
+    border-radius:10px;
+    border:1px solid silver;
+    background-color:#eceded;
+    background-image: url('../imagens/icone_botao_atualizar.png');
+    background-repeat: no-repeat;
+}
+
+.GridHeaderEventosDNPM
+{
+    background-color:#c0c6c1 !important;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+.ButtonAtualizarProcesso:hover
+{
+   background-color:#f8f8f8; 
+}
+#footer
+{
+    width: 98.3%;
+    height: 35px;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    margin: 0 auto;
+    border-radius: 6px;
+    position: relative;
+    background-image: url('../imagens/bg_footer.png');
+    -moz-box-shadow: 0 2px 2px #797979;
+    -ms-box-shadow: 0 2px 2px #797979;
+    -webkit-box-shadow: 0 2px 2px #797979;
+    box-shadow: 0 2px 2px #797979;
+    behavior: url(../Utilitarios/htc/PIE.htc);
+    
+    top /*\**/:7px\9;
+}
+
+#sair_deslogar:visited
+{
+    color: White;
+}
+
+#ajuda:visited
+{
+    color: White;
+}
+
+.btnVoltar
+{
+    float: right;
+    height: 25px;
+    width: 56px;
+    background-image: url('../imagens/voltar.gif');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#footer_texto
+{
+    color: White;
+    height: 10px;
+    width: auto;
+    font-size: 9pt;
+    top: 10px;
+    position: absolute;
+    left: 15px;
+}
+
+#resultado
+{
+    text-align: left;
+    margin-top: 8px;
+    color: silver;
+    font-style: italic;
+}
+
+.labelFiltros
+{
+    text-align: right;
+}
+
+.controlFiltros
+{
+    text-align: left;
+}
+
+.barra_titulos
+{
+    background-color: #e2e3e3;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-family: Arial;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 4px;
+    color: White;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* #####################################################  GRIDS  ###########################################################3*/
+
+.GridHeader
+{
+    background-image: url('../imagens/bg_Button.jpg');
+    background-repeat: repeat-x;
+    color: white;
+    border: 1px solid #61922B;
+    background-color: #61922b;
+    text-shadow: 0 1px 0 #274505;
+    height: 35px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0 0 0 0;
+    margin: 0;
+    vertical-align: middle;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 14px;
+    -webkit-box-shadow: 0 0 2px #DDD;
+    font: 12px "Tahoma" ,sans-serif;
+}
+.GridPager
+{
+    height: 35px !important;
+    text-align: center;
+    background: #E8E8E8 url("../gfx/back_pagination_table.jpg") repeat-x left top !important;
+    border: 1px solid #E5E4E4 !important;
+}
+
+.GridPager td table
+{
+    text-align:center !important;
+    margin:0 auto;
+    }
+
+.GridPager a, .Grid a:visited
+{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 4px 8px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    -moz-box-shadow: 0 1px 2px #343434;
+    -webkit-box-shadow: 0 1px 2px #343434;
+    color: Black !important;
+    cursor: pointer;
+    background: #DFDFDF url("../imagens/bg_ButtonWhite.jpg") repeat-x left top;
+    border: 1px solid white;
+}
+.GridPager a:hover
+{
+    background: #DFDFDF url("../imagens/bg_ButtonWhite_h.jpg") repeat-x left top;
+}
+.GridPager span
+{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 4px 8px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    -moz-box-shadow: inset 0 2px 3px black;
+    -webkit-box-shadow: inset 0 2px 3px #343434;
+    color: white;
+    cursor: default;
+    border: 1px solid black;
+    background: url("../imagens/bg_ButtonBlack.jpg") repeat-x left center;
+}
+
+/* #####################################################  FIM GRIDS  ###########################################################3*/
+
+
+/* #####################################################  BOTÕES E TEXTBOX  ###########################################################3*/
+/*.Button
+{
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #a8a6a6;
+	border-bottom: 1px solid #AAA;
+	padding: 2px 10px 2px 10px;
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.50),0 1px 0 #fff;
+	-ms-box-shadow: inset 0 1px 1px rgba(0,0,0,0.50),0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.50),0 1px 0 white;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.50),0 1px 0 white;
+	background-color: #6891E7;
+	filter: linear-gradient(to top,#6891E7 0,#304ea6 100%);
+	min-width: 120px;
+	font-size: 10pt;
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	text-align: center;
+	color: White;
+	font-weight: bold;
+}*/
+/*
+.Button:hover
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#304ea6,EndColorStr=#6891E7);
+	background-image: -moz-linear-gradient(top,#304ea6 0,#6891E7 100%);
+	background-image: -ms-linear-gradient(top,#304ea6 0,#6891E7 100%);
+	background-image: -o-linear-gradient(top,#304ea6 0,#6891E7 100%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,#304ea6),color-stop(100%,#6891E7));
+	background-image: -webkit-linear-gradient(top,#304ea6 0,#6891E7 100%);
+	background-image: linear-gradient(to top,#304ea6 0,#6891E7 100%);
+}*/
+.Button
+{
+    background-position: left;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 4px 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    -moz-box-shadow: 0 1px 2px #343434;
+    -webkit-box-shadow: 0 1px 2px #343434;
+    cursor: pointer;
+    color: white !important;
+    border: 1px solid #88C41A;
+    background-image: url('../imagens/bg_Button.jpg');
+    background-repeat: repeat-x;
+        border-radius:5px;
+    
+   
+}
+.Button:hover
+{
+    background-image: url('../imagens/bg_Button_h.jpg');
+}
+
+.ButtonExcluir
+{
+    background-position: left;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 4px 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    -moz-box-shadow: 0 1px 2px #343434;
+    -webkit-box-shadow: 0 1px 2px #343434;
+    cursor: pointer;
+    color: white !important;
+    border: 1px solid #ff0000;
+    background-image: url('../imagens/bg_ButtonExcluir.jpg');
+    background-repeat: repeat-x;
+    border-radius:5px;
+}
+.ButtonExcluir:hover
+{
+    background-image: url('../imagens/bg_ButtonExcluir_h.jpg');
+}
+
+
+
+/*
+.ButtonExcluir
+{
+	border: 1px solid;
+	border-color: #CCC;
+	border-top-color: #a8a6a6;
+	border-bottom-color: #AAA;
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.50),0 1px 0 #fff;
+	-ms-box-shadow: inset 0 1px 1px rgba(0,0,0,0.50),0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.50),0 1px 0 white;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.50),0 1px 0 white;
+	background-color: #e54e4e;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#f57a7a,EndColorStr=#e34646);
+	background-image: -moz-linear-gradient(bottom,#f57a7a 0,#e34646 100%);
+	background-image: -ms-linear-gradient(bottom,#f57a7a 0,#e34646 100%);
+	background-image: -o-linear-gradient(bottom,#f57a7a 0,#e34646 100%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,#f57a7a),color-stop(100%,#e34646));
+	background-image: -webkit-linear-gradient(bottom,#f57a7a 0,#e34646 100%);
+	background-image: linear-gradient(to top,#f57a7a 0,#e34646 100%);
+	padding: 2px 10px 2px 10px;
+	height: 28px;
+	min-width: 100px;
+	font-size: 10pt;
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+	color: White;
+	font-weight: bold;
+}
+
+.ButtonExcluir:hover
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#e54e4e,EndColorStr=#e54e4e);
+	background-image: -moz-linear-gradient(bottom,#e54e4e 0,#e54e4e 100%);
+	background-image: -ms-linear-gradient(bottom,#e54e4e 0,#e54e4e 100%);
+	background-image: -o-linear-gradient(bottom,#e54e4e 0,#e54e4e 100%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,#e54e4e),color-stop(100%,#e54e4e));
+	background-image: -webkit-linear-gradient(bottom,#e54e4e 0,#e54e4e 100%);
+	background-image: linear-gradient(to top,#e54e4e 0,#e54e4e 100%);
+}
+*/
+.ButtonImportar
+{
+    background-position: left center;
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    background: url('../imagens/importar.png') no-repeat;
+    font-size: 8pt;
+    text-align: right;
+    height: 22px;
+    width: 110px;
+    cursor: pointer;
+    color: #797979;
+}
+.ButtonImportar:hover
+{
+    color: #000;
+}
+.ButtonUpload
+{
+    background-position: left center;
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    background: url('../imagens/icone_upload.png') no-repeat;
+    font-size: 9pt;
+    text-align: right;
+    height: 22px;
+    width: 70px !important;
+    cursor: pointer;
+    color: #797979;
+}
+.ButtonUpload:hover
+{
+    color: #000;
+}
+
+
+
+.TextBox
+{
+    border: 1px solid #e8e9e9;
+    border-radius: 4px;
+    text-align: left;
+    padding: 3px;
+    font-size: 12px;
+    margin: 2px;
+    -moz-box-shadow: 0 1px 1px #dddddd;
+    -ms-box-shadow: 0 1px 1px #dddddd;
+    -webkit-box-shadow: 0 1px 1px #dddddd;
+    box-shadow: 0 1px 1px #dddddd;
+}
+
+.TextBox:focus
+{
+    background-color: #eefaee;
+}
+
+.DropDownList
+{
+    border: 1px solid #e8e9e9;
+    border-radius: 4px;
+    text-align: left;
+    padding: 3px;
+    font-size: 12px;
+    margin: 2px;
+    -moz-box-shadow: 0 1px 1px #dddddd;
+    -ms-box-shadow: 0 1px 1px #dddddd;
+    -webkit-box-shadow: 0 1px 1px #dddddd;
+    box-shadow: 0 1px 1px #dddddd;
+}
+.DropDownList:focus
+{
+    background-color: #eefaee;
+}
+
+#ibtnAdicionarCondicionante
+{
+    float: right;
+}
+
+/* ##################################################### FIM BOTÕES E TEXTBOX  ###########################################################*/
+
+.container_grids
+{
+    min-height: 40px;
+    border-radius: 4px;
+    background-color: White;
+    border: 1px solid #a6a5a5;
+}
+
+.barra_titulos
+{
+    color: #444;
+    padding-top: 6px;
+    padding-left: 12px;
+    min-height: 20px;
+    text-align: left;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 10pt;
+    position: relative;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+    -moz-box-shadow: 0 2px 2px #dddddd;
+    -ms-box-shadow: 0 2px 2px #dddddd;
+    -webkit-box-shadow: 0 2px 2px #dddddd;
+    box-shadow: 0 2px 2px #dddddd;
+}
+
+.contador_itens_grid
+{
+    width: 100%;
+}
+
+#contador_sessao
+{
+    position: absolute;
+    color: White;
+    height: 30px;
+    width: 211px;
+    top: 5px;
+    right: 15px;
+}
+
+#individual_vencimento_icone
+{
+    width: 25px;
+    height: 25px;
+    background-image: url('../imagens/icon_slide_relogio.png');
+    background-repeat: no-repeat;
+    float: left;
+    margin-left:4px;
+}
+
+#individual_vencimento_tempo
+{
+    font-family: Arial;
+    font-size: 12pt;
+    height: 25px;
+    color: White;
+    width: auto;
+    float:left;
+    margin-left:5px;
+    margin-top:3px;
+}
+
+.lblExpiraSessao
+{
+    font-family: Arial;
+    font-size: 12pt;
+    height: 25px;
+    color: White;
+    top: 12px;
+}
+
+.barra
+{
+    background-image: url('../Imagens/icone_logo.png');
+    background-repeat: no-repeat;
+    height:27px;
+    padding-left:75px;
+    font-family:Tahoma;
+    font-size:22px;
+    color: #6B809B;
+}
+
+.conteudo_interno
+{
+    background-color:#e2e3e3;
+}

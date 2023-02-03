@@ -1,0 +1,123 @@
+
+.simplemodal
+{
+	background-color: #000;
+	cursor: wait;
+	opacity: 0.5;
+	z-index: 40;
+}
+
+.pop_up
+{
+	padding: 20px;
+	border-radius: 10px;
+	position: relative;
+	background-color: #fafafa;
+	border: 1px inset #eae9e9;
+	margin: 10px;
+	font-size:12px;
+	color:#444141;
+	z-index: 50;
+}
+
+/*Usado quando tiver que abrir um popup sobre outro */
+
+.simplemodal_super
+{
+	background-color: #000;
+	cursor: wait;
+	opacity: 0.5;
+	z-index: 20000 !important;
+}
+
+.pop_up_super
+{
+	padding: 20px;
+	border-radius: 10px;
+	position: relative;
+	background-color: #fafafa;
+	border: 1px inset #eae9e9;
+	margin: 10px;
+	font-size:12px;
+	color:#444141;
+	z-index: 21000 !important;
+}
+
+.simplemodal_super_super
+{
+	background-color: #000;
+	cursor: wait;
+	opacity: 0.5;
+	z-index: 22000 !important;
+}
+
+.pop_up_super_super
+{
+	padding: 20px;
+	border-radius: 10px;
+	position: relative;
+	background-color: #fafafa;
+	border: 1px inset #eae9e9;
+	margin: 10px;
+	font-size:12px;
+	color:#444141;
+	z-index: 23000 !important;
+}
+
+.simplemodal_super_super_super
+{
+	background-color: #000;
+	cursor: wait;
+	opacity: 0.5;
+	z-index: 22001 !important;
+}
+
+.pop_up_super_super_super
+{
+	padding: 20px;
+	border-radius: 10px;
+	position: relative;
+	background-color: #fafafa;
+	border: 1px inset #eae9e9;
+	margin: 10px;
+	font-size:12px;
+	color:#444141;
+	z-index: 23002 !important;
+}
+
+/*-----------------------FIM---------------------------*/
+
+.btn_cancelar_popup
+{
+	position: absolute;
+	width: 25px;
+	height: 29px;
+	background-image: url('../imagens/x.png');
+	background-repeat: no-repeat;
+	top: -5px;
+	right: -12px;
+	cursor: pointer;
+}
+
+.barra_titulo
+{
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius:4px;
+    padding:5px;
+    font-size:larger;
+    font-weight:bold;
+    margin-bottom:10px;
+    background-color:#565656;
+    color:White;
+}
+
+.box_pesquisa_pop_up
+{
+     -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius:6px;
+    background-color:White;
+    padding:7px;
+    min-height:20px;
+}

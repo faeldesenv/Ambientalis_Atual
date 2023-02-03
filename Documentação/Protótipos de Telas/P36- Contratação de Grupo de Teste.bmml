@@ -1,0 +1,77 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1789" measuredH="1207" mockupW="1709" mockupH="1177">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="80" y="30" w="1262" h="906" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1"/>
+    <control controlID="153" controlTypeID="com.balsamiq.mockups::Image" x="216" y="137" w="-1" h="-1" measuredW="950" measuredH="693" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <filter>true</filter>
+        <src>./assets/contratacao.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="154" controlTypeID="com.balsamiq.mockups::Canvas" x="1181" y="685" w="608" h="522" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedDotted</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="155" controlTypeID="com.balsamiq.mockups::Label" x="1222" y="722" w="-1" h="-1" measuredW="423" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Quantidade%20de%20Usu%E1rios%20cadastrados%20%287%29%20acima%20do%20limite%20contratado%20%285%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="156" controlTypeID="com.balsamiq.mockups::Label" x="1222" y="743" w="-1" h="-1" measuredW="456" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Informe%20quais%20usu%E1rios%20devem%20ser%20EXCLU%CDDOS%20para%20continuar%20a%20contrata%E7%E3o.</text>
+      </controlProperties>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="1230" y="771" w="-1" h="-1" measuredW="106" measuredH="149" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>-%5B%20%5D%20Administrador-%0A%5Bx%5D%20Joel%0A%5B%20%5D%20Hugo%0A%5B%20%5D%20Pablo%0A%5Bx%5D%20Marcos%0A%5B%20%5D%20Felipe%0A%5B%20%5D%20J%FAlio</text>
+      </controlProperties>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::Label" x="1222" y="949" w="-1" h="-1" measuredW="429" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Quantidade%20de%20Empresas%20cadastrados%20%282%29%20acima%20do%20limite%20contratado%20%281%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::Label" x="1222" y="970" w="-1" h="-1" measuredW="462" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Informe%20quais%20empresas%20devem%20ser%20EXCLU%CDDAS%20para%20continuar%20a%20contrata%E7%E3o.</text>
+      </controlProperties>
+    </control>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="1230" y="998" w="-1" h="-1" measuredW="213" measuredH="39" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5B%20%5D%20Empresa%20xxx%20-%2011.111.111/0001-11%0A%5Bx%5D%20Empresa%20yyy%20-%2011.111.111/0001-12</text>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::Label" x="1222" y="1058" w="-1" h="-1" measuredW="431" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Quantidade%20de%20Processos%20cadastrados%20%282%29%20acima%20do%20limite%20contratado%20%281%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="163" controlTypeID="com.balsamiq.mockups::Label" x="1222" y="1079" w="-1" h="-1" measuredW="467" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Informe%20quais%20processos%20devem%20ser%20EXCLU%CDDOS%20para%20continuar%20a%20contrata%E7%E3o.</text>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="1230" y="1107" w="-1" h="-1" measuredW="209" measuredH="39" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5B%20%5D%20Processo%20Ambiental%20-%201111111%0A%5Bx%5D%20Processo%20Miner%E1rio%20-%202222222</text>
+      </controlProperties>
+    </control>
+    <control controlID="166" controlTypeID="com.balsamiq.mockups::Arrow" x="804" y="779" w="403" h="104" measuredW="150" measuredH="100" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+      </controlProperties>
+    </control>
+    <control controlID="167" controlTypeID="com.balsamiq.mockups::StickyNote" x="676" y="830" w="352" h="221" measuredW="109" measuredH="123" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ao%20aceitar%20um%20contrato%20%28Normal%20pelo%20site%20ou%20Personalizado%29%2C%20verificar%20se%20o%20grupo%20que%20est%E1%20sendo%20cadastrado%20%E9%20um%20grupo%20j%E1%20cadastrado%20de%20teste.%20Se%20for%20e%20algum%20de%20seus%20limites%20for%20menor%20do%20que%20j%E1%20est%E1%20cadastrado%2C%20exibir%20um%20popup%20para%20o%20usu%E1rio%20escolher%20o%20que%20ser%E1%20exclu%EDdo%20para%20se%20enquadrar%20nos%20limites%20contratados.%0A%20%0AObs.%20%0AAo%20preencher%20o%20CNPJ%20na%20contrata%E7%E3o%20do%20site%2C%20aceitar%20se%20for%20CNPJ%20repetido%2C%20mas%20de%20grupo%20de%20teste.</text>
+      </controlProperties>
+    </control>
+    <control controlID="168" controlTypeID="com.balsamiq.mockups::Button" x="1653" y="1161" w="-1" h="-1" measuredW="71" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Concluir</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

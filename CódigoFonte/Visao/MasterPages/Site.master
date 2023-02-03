@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<%@ Register Src="../MBOX/MBOX.ascx" TagName="MBOX" TagPrefix="uc1" %>
+<%@ Register Src="../Utilitarios/Update.ascx" TagName="Update" TagPrefix="uc2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+<head id="Head1" runat="server">
+    <link href="../Styles/Style.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/popup_basic.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.mask.js" type="text/javascript"></script>
+     <script src="../Scripts/Funcoes.js" type="text/javascript"></script>
+    <script src="../Utilitarios/Funcoes.js" type="text/javascript"></script>
+    <script src="../Scripts/Funcoes2.js" type="text/javascript"></script>
+    <script src="../Utilitarios/ToolTip/script.js" type="text/javascript"></script>
+    <link href="../Utilitarios/ToolTip/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../imagens/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../imagens/favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../imagens/favicon.png" type="image/x-icon" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .corbranco
+        {
+            color: white;
+        }
+    </style>
+   
+    <%--<script type="text/javascript">
+       
+
+        var sHors = "00";
+        var sMins = "60";
+        var sSecs = 00;
+        function getSecs() {
+            sSecs--;
+            if (sSecs < 0)
+            { sSecs = 59; sMins--; if (sMins <= 9) sMins = "0" + sMins; }
+            if (sMins == "0-1")
+            { sMins = 5; sHors--; if (sHors <= 9) sHors = "0" + sHors; }
+            if (sSecs <= 9) sSecs = "0" + sSecs;
+            if (sHors == "0-1") {
+                sHors = "00"; sMins = "00"; sSecs = "00";
+                document.getElementById('individual_vencimento_tempo').innerHTML = sHors + "<font color=#fff>:</font>" + sMins + "<font color=#fff>:</font>" + sSecs;
+            }
+            else {
+                document.getElementById('individual_vencimento_tempo').innerHTML = sHors + "<font color=#fff>:</font>" + sMins + "<font color=#fff>:</font>" + sSecs;
+                setTimeout('getSecs()', 1000);
+            }
+        }
+    
+    </script>--%>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" EnableScriptGlobalization="true" EnableScriptLocalization="true">
+    </asp:ToolkitScriptManager>
+    <uc2:Update ID="upProgress" runat="server" />
+    <div id="header">
+        <asp:Label ID="lblMenuDinamico" runat="server"></asp:Label>
+        <div id="logo" style="cursor: pointer; width: 176px; margin-top:16px;height: 29px;" onclick="document.location='../Site/Index.aspx'" >
+            <img src="../imagens/logo_mini.png" style="height: 29px; width: 176px" /></div>
+        <div style="width: 100%; height: 3px; clear: both;">
+        </div>
+    </div>
+    <div id="content">
+        <div id="barra">
+            <div id="barra_texto">
+                <asp:ContentPlaceHolder ID="Barra" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+           
+        </div>
+        <div id="cph">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div style="clear: both; height: 10px;">
+    </div>
+    <div id="footer">
+        <div id="footer_texto">
+            &nbsp;&nbsp;<asp:Label ID="Label1" runat="server" Text="Usuário:"></asp:Label>
+            &nbsp;<asp:Label ID="lblUsuario" runat="server"></asp:Label>
+            &nbsp;-&nbsp;<a id="sair_deslogar" href="../Acesso/Login.aspx"><strong><span class="corbranco">Sair</span></strong></a>
+            &nbsp;-&nbsp;<asp:Label ID="Label2" runat="server" Text="Em caso de dúvidas consulte o"></asp:Label>
+            &nbsp;<a id="ajuda" target="_blank" href="http://sustentar.web552.kinghost.net/wiki-sistema-sustentar/index.php?title=P%C3%A1gina_principal"
+                onmouseout="tooltip.hide();" onmouseover="tooltip.show('Manual do Sistema')"><span
+                    class="corbranco"><strong>Manual do Sistema</strong></span></a>
+        </div>
+        <div id="contador_sessao" align="left">
+            <div style="float: left; font-size: x-small; margin-top: 6px; font-family: Arial, Helvetica, sans-serif;">
+                </div>
+            <%--<div id="individual_vencimento_icone">
+            </div>
+            <div id="individual_vencimento_tempo">
+                <span id="clock1"></span>
+                <script type="text/javascript">                    setTimeout('getSecs()', 1000);</script>
+            </div>--%>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder ID="popups" runat="server">
+    </asp:ContentPlaceHolder>
+    <uc1:MBOX ID="MBOX1" runat="server" />
+    </form>
+</body>
+</html>

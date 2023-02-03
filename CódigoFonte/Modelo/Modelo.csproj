@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CBD30BF0-5A7F-454C-A6E8-031B05B515C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Modelo</RootNamespace>
+    <AssemblyName>Modelo</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Mapping.Attributes, Version=3.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\CONTROLS2\NHibernate 3.3\NHibernate.Mapping.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Persistencia\Acesso.cs" />
+    <Compile Include="Persistencia\AlvaraPesquisa.cs" />
+    <Compile Include="Persistencia\Auditoria\Auditoria.cs" />
+    <Compile Include="Persistencia\Auditoria\Auditoria_Users.cs" />
+    <Compile Include="Persistencia\Aviso.cs" />
+    <Compile Include="Persistencia\Cidade.cs" />
+    <Compile Include="Persistencia\ArquivoFisico.cs" />
+    <Compile Include="Persistencia\Cliente.cs" />
+    <Compile Include="Persistencia\Comercial\ArquivoFisicoComercial.cs" />
+    <Compile Include="Persistencia\Comercial\PeriodoDeUso.cs" />
+    <Compile Include="Persistencia\Comercial\Mensalidade.cs" />
+    <Compile Include="Persistencia\Comercial\ContratoComercial.cs" />
+    <Compile Include="Persistencia\Comercial\DadosFisicaComercial.cs" />
+    <Compile Include="Persistencia\Comercial\DadosJuridicaComercial.cs" />
+    <Compile Include="Persistencia\Comercial\IGPMAcumulado.cs" />
+    <Compile Include="Persistencia\Comercial\Interacao.cs" />
+    <Compile Include="Persistencia\Comercial\MenuComercial.cs" />
+    <Compile Include="Persistencia\Comercial\Prospecto.cs" />
+    <Compile Include="Persistencia\Comercial\Revenda.cs" />
+    <Compile Include="Persistencia\Comercial\UsuarioAdministradorComercial.cs" />
+    <Compile Include="Persistencia\Comercial\UsuarioComercial.cs" />
+    <Compile Include="Persistencia\Comercial\UsuarioRevendaComercial.cs" />
+    <Compile Include="Persistencia\Comercial\UsuarioSupervisorComercial.cs" />
+    <Compile Include="Persistencia\Comercial\Venda.cs" />
+    <Compile Include="Persistencia\Condicional.cs" />
+    <Compile Include="Persistencia\ConfiguracaoPermissaoModulo.cs" />
+    <Compile Include="Persistencia\ContratoDiverso.cs" />
+    <Compile Include="Persistencia\CentroCusto.cs" />
+    <Compile Include="Persistencia\Atividade.cs" />
+    <Compile Include="Persistencia\AditivoContrato.cs" />
+    <Compile Include="Persistencia\EmpresaModuloPermissao.cs" />
+    <Compile Include="Persistencia\FormaRecebimento.cs" />
+    <Compile Include="Persistencia\ModuloPermissao.cs" />
+    <Compile Include="Persistencia\Moeda.cs" />
+    <Compile Include="Persistencia\IndiceFinanceiro.cs" />
+    <Compile Include="Persistencia\PreferenciaRelatorio.cs" />
+    <Compile Include="Persistencia\Setor.cs" />
+    <Compile Include="Persistencia\Fornecedor.cs" />
+    <Compile Include="Persistencia\StatusEditaveisContrato.cs" />
+    <Compile Include="Persistencia\StatusFixosContrato.cs" />
+    <Compile Include="Persistencia\VencimentoContratoDiverso.cs" />
+    <Compile Include="Persistencia\StatusContratoDiverso.cs" />
+    <Compile Include="Persistencia\ProrrogacaoPrazo.cs" />
+    <Compile Include="Persistencia\GrupoMenu.cs" />
+    <Compile Include="Persistencia\Substancia.cs" />
+    <Compile Include="Persistencia\Diverso.cs" />
+    <Compile Include="Persistencia\Historico.cs" />
+    <Compile Include="Persistencia\EventoDNPM.cs" />
+    <Compile Include="Persistencia\GrupoEconomico.cs" />
+    <Compile Include="Persistencia\ConcessaoLavra.cs" />
+    <Compile Include="Persistencia\Condicionante.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Persistencia\Contrato.cs" />
+    <Compile Include="Persistencia\Consultora.cs" />
+    <Compile Include="Persistencia\Administrador.cs" />
+    <Compile Include="Persistencia\CondicionantePadrao.cs" />
+    <Compile Include="Persistencia\CadastroTecnicoFederal.cs" />
+    <Compile Include="Persistencia\GrupoEconomicoSite.cs" />
+    <Compile Include="Persistencia\Menu.cs" />
+    <Compile Include="Persistencia\OrgaoFederal.cs" />
+    <Compile Include="Persistencia\OrgaoEstadual.cs" />
+    <Compile Include="Persistencia\OrgaoMunicipal.cs" />
+    <Compile Include="Persistencia\Extracao.cs" />
+    <Compile Include="Persistencia\Exigencia.cs" />
+    <Compile Include="Persistencia\GuiaUtilizacao.cs" />
+    <Compile Include="Persistencia\Licenciamento.cs" />
+    <Compile Include="Persistencia\Notificacao.cs" />
+    <Compile Include="Persistencia\Outros.cs" />
+    <Compile Include="Persistencia\OutrosEmpresa.cs" />
+    <Compile Include="Persistencia\OutrosProcesso.cs" />
+    <Compile Include="Persistencia\ProcessoDNPM.cs" />
+    <Compile Include="Persistencia\RAL.cs" />
+    <Compile Include="Persistencia\Regime.cs" />
+    <Compile Include="Persistencia\RequerimentoLavra.cs" />
+    <Compile Include="Persistencia\RequerimentoPesquisa.cs" />
+    <Compile Include="Persistencia\Setup.cs" />
+    <Compile Include="Persistencia\Status.cs" />
+    <Compile Include="Persistencia\StatusDiverso.cs" />
+    <Compile Include="Persistencia\TemplateNotificacao.cs" />
+    <Compile Include="Persistencia\TipoDiverso.cs" />
+    <Compile Include="Persistencia\TipoLicenca.cs" />
+    <Compile Include="Persistencia\Processo.cs" />
+    <Compile Include="Persistencia\Licenca.cs" />
+    <Compile Include="Persistencia\OrgaoAmbiental.cs" />
+    <Compile Include="Persistencia\Empresa.cs" />
+    <Compile Include="Persistencia\DadosFisica.cs" />
+    <Compile Include="Persistencia\DadosJuridica.cs" />
+    <Compile Include="Persistencia\Estado.cs" />
+    <Compile Include="Persistencia\Usuario.cs" />
+    <Compile Include="Persistencia\Vencimento.cs" />
+    <Compile Include="Persistencia\VencimentoDiverso.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Propriedades\Acesso.cs" />
+    <Compile Include="Propriedades\Administrador.cs" />
+    <Compile Include="Propriedades\AlvaraPesquisa.cs" />
+    <Compile Include="Propriedades\ArquivoFisico.cs" />
+    <Compile Include="Propriedades\Auditoria\Auditoria.cs" />
+    <Compile Include="Propriedades\Auditoria\Auditoria_Users.cs" />
+    <Compile Include="Propriedades\AutorizacaoPesquisa.cs" />
+    <Compile Include="Propriedades\Aviso.cs" />
+    <Compile Include="Propriedades\Cidade.cs" />
+    <Compile Include="Propriedades\Cliente.cs" />
+    <Compile Include="Propriedades\Comercial\ArquivoFisicoComercial.cs" />
+    <Compile Include="Propriedades\Comercial\PeriodoDeUso.cs" />
+    <Compile Include="Propriedades\Comercial\Mensalidade.cs" />
+    <Compile Include="Propriedades\Comercial\ContatoComercial.cs" />
+    <Compile Include="Propriedades\Comercial\ContratoComercial.cs" />
+    <Compile Include="Propriedades\Comercial\DadosFisicaComercial.cs" />
+    <Compile Include="Propriedades\Comercial\DadosJuridicaComercial.cs" />
+    <Compile Include="Propriedades\Comercial\DadosPessoaComercial.cs" />
+    <Compile Include="Propriedades\Comercial\EnderecoComercial.cs" />
+    <Compile Include="Propriedades\Comercial\IGPMAcumulado.cs" />
+    <Compile Include="Propriedades\Comercial\Interacao.cs" />
+    <Compile Include="Propriedades\Comercial\MenuComercial.cs" />
+    <Compile Include="Propriedades\Comercial\PessoaComercial.cs" />
+    <Compile Include="Propriedades\Comercial\Prospecto.cs" />
+    <Compile Include="Propriedades\Comercial\Revenda.cs" />
+    <Compile Include="Propriedades\Comercial\UsuarioAdministradorComercial.cs" />
+    <Compile Include="Propriedades\Comercial\UsuarioComercial.cs" />
+    <Compile Include="Propriedades\Comercial\UsuarioRevendaComercial.cs" />
+    <Compile Include="Propriedades\Comercial\UsuarioSupervisorComercial.cs" />
+    <Compile Include="Propriedades\Comercial\Venda.cs" />
+    <Compile Include="Propriedades\ConfiguracaoPermissaoModulo.cs" />
+    <Compile Include="Propriedades\Contrato.cs" />
+    <Compile Include="Propriedades\ContratoDiverso.cs" />
+    <Compile Include="Propriedades\CentroCusto.cs" />
+    <Compile Include="Propriedades\Atividade.cs" />
+    <Compile Include="Propriedades\AditivoContrato.cs" />
+    <Compile Include="Propriedades\EmpresaModuloPermissao.cs" />
+    <Compile Include="Propriedades\FormaRecebimento.cs" />
+    <Compile Include="Propriedades\ModuloPermissao.cs" />
+    <Compile Include="Propriedades\Moeda.cs" />
+    <Compile Include="Propriedades\IndiceFinanceiro.cs" />
+    <Compile Include="Propriedades\PreferenciaRelatorio.cs" />
+    <Compile Include="Propriedades\Setor.cs" />
+    <Compile Include="Propriedades\Fornecedor.cs" />
+    <Compile Include="Propriedades\StatusContratoDiverso.cs" />
+    <Compile Include="Propriedades\ProrrogacaoPrazo.cs" />
+    <Compile Include="Propriedades\GrupoMenu.cs" />
+    <Compile Include="Propriedades\StatusEditaveisContrato.cs" />
+    <Compile Include="Propriedades\StatusFixosContrato.cs" />
+    <Compile Include="Propriedades\Substancia.cs" />
+    <Compile Include="Propriedades\Diverso.cs" />
+    <Compile Include="Propriedades\Historico.cs" />
+    <Compile Include="Propriedades\EventoDNPM.cs" />
+    <Compile Include="Propriedades\GrupoEconomico.cs" />
+    <Compile Include="Propriedades\ConcessaoLavra.cs" />
+    <Compile Include="Propriedades\Condicional.cs" />
+    <Compile Include="Propriedades\Condicionante.cs" />
+    <Compile Include="Propriedades\CondicionantePadrao.cs" />
+    <Compile Include="Propriedades\ConfigMultiEmpresa.cs" />
+    <Compile Include="Propriedades\Contato.cs" />
+    <Compile Include="Propriedades\Consultora.cs" />
+    <Compile Include="Propriedades\Concessao.cs" />
+    <Compile Include="Propriedades\CadastroTecnicoFederal.cs" />
+    <Compile Include="Propriedades\Extracao.cs" />
+    <Compile Include="Propriedades\GrupoEconomicoSite.cs" />
+    <Compile Include="Propriedades\Licenciamento.cs" />
+    <Compile Include="Propriedades\Menu.cs" />
+    <Compile Include="Propriedades\OrgaoEstadual.cs" />
+    <Compile Include="Propriedades\OrgaoFederal.cs" />
+    <Compile Include="Propriedades\OrgaoMunicipal.cs" />
+    <Compile Include="Propriedades\RAL.cs" />
+    <Compile Include="Propriedades\ProcessoDNPM.cs" />
+    <Compile Include="Propriedades\GuiaUtilizacao.cs" />
+    <Compile Include="Propriedades\Exigencia.cs" />
+    <Compile Include="Propriedades\Regime.cs" />
+    <Compile Include="Propriedades\Notificacao.cs" />
+    <Compile Include="Propriedades\RequerimentoLavra.cs" />
+    <Compile Include="Propriedades\RequerimentoPesquisa.cs" />
+    <Compile Include="Propriedades\Setup.cs" />
+    <Compile Include="Propriedades\StatusDiverso.cs" />
+    <Compile Include="Propriedades\TemplateNotificacao.cs" />
+    <Compile Include="Propriedades\TipoDiverso.cs" />
+    <Compile Include="Propriedades\Usuario.cs" />
+    <Compile Include="Propriedades\Vencimento.cs" />
+    <Compile Include="Propriedades\Empresa.cs" />
+    <Compile Include="Propriedades\DadosFisica.cs" />
+    <Compile Include="Propriedades\DadosJuridica.cs" />
+    <Compile Include="Propriedades\DadosPessoa.cs" />
+    <Compile Include="Propriedades\Endereco.cs" />
+    <Compile Include="Propriedades\Estado.cs" />
+    <Compile Include="Propriedades\OutrosEmpresa.cs" />
+    <Compile Include="Propriedades\OutrosProcesso.cs" />
+    <Compile Include="Propriedades\Licenca.cs" />
+    <Compile Include="Propriedades\OrgaoAmbiental.cs" />
+    <Compile Include="Propriedades\Pessoa.cs" />
+    <Compile Include="Propriedades\Processo.cs" />
+    <Compile Include="Propriedades\Status.cs" />
+    <Compile Include="Propriedades\TipoLicenca.cs" />
+    <Compile Include="Propriedades\VencimentoContratoDiverso.cs" />
+    <Compile Include="Propriedades\VencimentoDiverso.cs" />
+    <Compile Include="Util\SqlDate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Persistencia\Persistencia.csproj">
+      <Project>{EDE1BCE2-0D92-4B2E-A6BC-A66079D6D5CC}</Project>
+      <Name>Persistencia</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
